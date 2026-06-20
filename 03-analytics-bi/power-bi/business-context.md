@@ -2,63 +2,70 @@
 title: "Power BI Business Context"
 domain: "Analytics and BI"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Analytics/BI Draft"
 last_updated: "2026-06-20"
 tags:
-  - power
-  - bi
-related: []
+  - analytics-bi
+  - power-bi
+  - business-context
+related:
+  - ../
 ---
 
 # Power BI Business Context
 
 ## Business Purpose
 
-[Explain why the business should care about Power BI.]
+Power BI should support a business decision, process, performance review, operational action, or strategic outcome.
 
 ## Business Value
 
-| Value Area | How Power BI Can Help |
+| Value Area | How It Helps |
 |---|---|
-| Efficiency | [Explanation] |
-| Cost Reduction | [Explanation] |
-| Risk Reduction | [Explanation] |
-| Quality | [Explanation] |
-| Scalability | [Explanation] |
-| Decision-Making | [Explanation] |
-| Governance | [Explanation] |
+| Self-Service Analytics | Supports better business outcomes by turning trusted data into usable, governed insight. |
+| Executive Visibility | Supports better business outcomes by turning trusted data into usable, governed insight. |
+| Operational Reporting | Supports better business outcomes by turning trusted data into usable, governed insight. |
+| Governed Insights | Supports better business outcomes by turning trusted data into usable, governed insight. |
+| Business Decision Support | Supports better business outcomes by turning trusted data into usable, governed insight. |
+| Data Storytelling | Supports better business outcomes by turning trusted data into usable, governed insight. |
 
 ## Stakeholders
 
-- Business owner:
-- Technical owner:
-- Data owner:
-- Operations owner:
-- Governance / risk partner:
-- End users:
+- Executive sponsor
+- Business owner
+- Report owner
+- Semantic model owner
+- Data owner
+- BI developer
+- Data engineer
+- Governance / risk partner
+- End users
+- Support owner
 
 ## Common Business Questions
 
-1. What problem are we solving?
-2. What value does this create?
-3. What process does this improve?
-4. What risk does this reduce?
-5. What happens if we do nothing?
-6. How will success be measured?
+1. What decision does the report or model support?
+2. Who needs this information?
+3. How often do they need it?
+4. What action should they take from the insight?
+5. What metric definitions are required?
+6. What data source is trusted?
+7. What level of governance is required?
+8. How will adoption and usefulness be measured?
 
 ## Metrics
 
-| Metric | Definition | Why It Matters |
-|---|---|---|
-| [Metric] | [Definition] | [Importance] |
-
-## Beginner-to-Pro Business Growth
-
-| Level | Business Skill |
+| Metric | Why It Matters |
 |---|---|
-| Beginner | Explain why the subject matters. |
-| Advanced Beginner | Connect the subject to a business process. |
-| Intermediate Practitioner | Identify business value and risks. |
-| Advanced Practitioner | Define measures and tradeoffs. |
-| Enterprise Professional | Align with strategy, governance, and operating model. |
-| Architect / Strategic Lead | Shape investment decisions and roadmaps. |
+| Report views | Shows usage. |
+| Unique users | Shows audience adoption. |
+| Refresh success rate | Shows reliability. |
+| Refresh duration | Shows operational performance. |
+| Query performance | Shows user experience. |
+| Number of duplicate reports | Shows content sprawl. |
+| Certified model usage | Shows governance maturity. |
+| Support tickets | Shows quality and usability issues. |
+
+## Business Explanation Template
+
+> We use Power BI to help the business make faster, more consistent, and more trusted decisions from governed data.

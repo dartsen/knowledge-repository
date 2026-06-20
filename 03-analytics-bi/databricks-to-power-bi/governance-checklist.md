@@ -2,14 +2,14 @@
 title: "Databricks to Power BI Governance Checklist"
 domain: "Analytics and BI"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Analytics/BI Draft"
 last_updated: "2026-06-20"
 tags:
-  - databricks
-  - to
-  - power
-  - bi
-related: []
+  - analytics-bi
+  - databricks-to-power-bi
+  - governance
+related:
+  - ../
 ---
 
 # Databricks to Power BI Governance Checklist
@@ -17,64 +17,70 @@ related: []
 ## Ownership
 
 - [ ] Business owner identified
-- [ ] Technical owner identified
-- [ ] Data owner identified, if applicable
+- [ ] Report owner identified
+- [ ] Semantic model owner identified
+- [ ] Data owner identified
+- [ ] Workspace admin identified
 - [ ] Support owner identified
-- [ ] Escalation path documented
+
+## Metric Governance
+
+- [ ] Key metrics defined
+- [ ] Metric owner assigned
+- [ ] Calculation logic documented
+- [ ] Business glossary updated
+- [ ] Validation evidence captured
+- [ ] Conflicting definitions resolved
 
 ## Access Control
 
-- [ ] Access requirements documented
-- [ ] Least privilege applied
-- [ ] Sensitive data reviewed
-- [ ] Service accounts or service principals reviewed
+- [ ] Workspace roles reviewed
+- [ ] App audience defined
+- [ ] Build permissions reviewed
+- [ ] RLS tested where applicable
+- [ ] Sensitivity labels applied where required
 - [ ] Access review cadence defined
 
-## Change Management
+## Lifecycle Management
 
-- [ ] Change impact assessed
-- [ ] Testing evidence captured
-- [ ] Release plan documented
-- [ ] Rollback or fallback plan documented
-- [ ] Stakeholders informed
+- [ ] Development location identified
+- [ ] Test process defined
+- [ ] Production deployment process defined
+- [ ] Deployment rules documented where applicable
+- [ ] Rollback plan defined
+- [ ] Retirement process defined
+
+## Data and Refresh
+
+- [ ] Trusted source identified
+- [ ] Refresh cadence documented
+- [ ] Refresh owner identified
+- [ ] Refresh failure alerts defined
+- [ ] Data quality expectations documented
+- [ ] Lineage reviewed
 
 ## Auditability
 
-- [ ] Decision records available
-- [ ] Logs available
-- [ ] Approval trail available
-- [ ] Documentation stored in approved location
-- [ ] Version history available
-
-## Data Sensitivity
-
-- [ ] Data classification reviewed
-- [ ] PII or confidential data identified
-- [ ] Retention requirements considered
-- [ ] Downstream usage documented
+- [ ] Report inventory updated
+- [ ] Change history available
+- [ ] Approval captured
+- [ ] Deployment history available
+- [ ] Usage metrics reviewed
+- [ ] Certification or endorsement status documented
 
 ## Operational Readiness
 
-- [ ] Monitoring defined
-- [ ] Alerts defined
-- [ ] Runbook available
-- [ ] Support model defined
-- [ ] Incident process documented
+- [ ] Support process documented
+- [ ] Known issues documented
+- [ ] Performance tested
+- [ ] User acceptance testing completed
+- [ ] Communication plan prepared
+- [ ] Training or user guidance provided
 
 ## Continuous Improvement
 
-- [ ] Metrics defined
+- [ ] Usage reviewed periodically
+- [ ] Stale content reviewed
+- [ ] Duplicate reports identified
 - [ ] Feedback loop defined
 - [ ] Technical debt tracked
-- [ ] Review cadence established
-
-## Beginner-to-Pro Governance Growth
-
-| Level | Governance Capability |
-|---|---|
-| Beginner | Understand why ownership and controls matter. |
-| Advanced Beginner | Follow basic review checklists. |
-| Intermediate Practitioner | Apply governance to real work. |
-| Advanced Practitioner | Balance control, speed, risk, and usability. |
-| Enterprise Professional | Define operating models and review gates. |
-| Architect / Strategic Lead | Shape governance strategy and enterprise standards. |

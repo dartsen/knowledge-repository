@@ -2,73 +2,80 @@
 title: "Migration Patterns Best Practices"
 domain: "Analytics and BI"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Analytics/BI Draft"
 last_updated: "2026-06-20"
 tags:
-  - migration
-  - patterns
-related: []
+  - analytics-bi
+  - migration-patterns
+  - best-practices
+related:
+  - ../
 ---
 
 # Migration Patterns Best Practices
 
-Use this guide to capture practical standards and repeatable approaches for Migration Patterns.
-
 ## Design
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Start with the audience and decision.
+- Define metrics before visuals.
+- Use simple layouts and clear hierarchy.
+- Design for action and interpretation.
 
 ## Development
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Use shared semantic models where appropriate.
+- Keep DAX and transformations readable.
+- Use consistent naming.
+- Document assumptions and calculation logic.
 
 ## Testing
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Reconcile metrics to trusted sources.
+- Test filters, relationships, security, refresh, and performance.
+- Validate with business users.
+- Test with realistic data volumes.
 
 ## Documentation
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Document purpose, owner, audience, source, refresh cadence, metrics, and limitations.
+- Maintain change notes.
+- Link to lineage and source documentation.
 
 ## Security
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Use least privilege.
+- Test RLS and access roles.
+- Prefer apps for broad distribution.
+- Apply sensitivity labels where required.
 
 ## Governance
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Define workspace strategy.
+- Use promotion and certification intentionally.
+- Review usage and stale content.
+- Define report ownership and lifecycle.
 
 ## Maintenance
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Monitor refresh failures.
+- Review usage metrics.
+- Retire duplicates.
+- Update documentation after changes.
 
 ## Scalability
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Optimize model design.
+- Reduce unnecessary visuals.
+- Use aggregations or curated tables.
+- Separate reusable models from thin reports.
 
-## Beginner-to-Pro Best-Practice Growth
+## Maturity Progression
 
-| Level | Focus |
+| Level | Practice Focus |
 |---|---|
-| Beginner | Learn the basic do's and don'ts. |
-| Advanced Beginner | Follow a checklist consistently. |
-| Intermediate Practitioner | Apply best practices in real work. |
-| Advanced Practitioner | Adapt best practices to complexity and scale. |
-| Enterprise Professional | Standardize best practices across teams. |
-| Architect / Strategic Lead | Define principles, guardrails, and reusable patterns. |
+| Beginner | Understand good BI habits. |
+| Advanced Beginner | Follow report and model checklists. |
+| Intermediate Practitioner | Apply standards in real reports and models. |
+| Advanced Practitioner | Improve performance, trust, lifecycle, and usability. |
+| Enterprise Professional | Standardize across teams and domains. |
+| Architect / Strategic Lead | Define analytics strategy, governance, and reference patterns. |

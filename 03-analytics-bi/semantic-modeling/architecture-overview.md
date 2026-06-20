@@ -2,82 +2,97 @@
 title: "Semantic Modeling Architecture Overview"
 domain: "Analytics and BI"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Analytics/BI Draft"
 last_updated: "2026-06-20"
 tags:
-  - semantic
-  - modeling
-related: []
+  - analytics-bi
+  - semantic-modeling
+  - architecture
+related:
+  - ../
 ---
 
 # Semantic Modeling Architecture Overview
 
 ## Purpose
 
-[Explain how Semantic Modeling fits into the broader enterprise architecture.]
+This document explains how **Semantic Modeling** fits into a broader analytics and enterprise architecture.
 
-## Architecture Layers to Consider
-
-- Business capability
-- Business process
-- Data
-- Application
-- Integration
-- Technology
-- Security
-- Governance
-- Operations
-- Monitoring
-
-## Context Diagram
+## Architecture Context
 
 ```text
-Business Need
-  → Semantic Modeling
-  → Supporting Systems / Data / Processes
-  → Consumers / Users / Automation / Reporting
-  → Monitoring and Improvement
+Source Systems
+  → Data Platform / Lakehouse / Warehouse
+  → Semantic Model
+  → Reports / Dashboards
+  → Apps / Workspaces
+  → Business Users
+  → Usage and Feedback
 ```
 
-## Common Inputs
+## Where Semantic Modeling Fits
 
-- [Input]
-- [Input]
+```text
+Business Decision Need
+  → Trusted Data
+  → Semantic Modeling
+  → Insight Delivery
+  → Action / Monitoring / Improvement
+```
 
-## Common Outputs
+## Inputs
 
-- [Output]
-- [Output]
+- Business questions
+- User personas
+- Metric definitions
+- Source data
+- Data quality expectations
+- Security requirements
+- Refresh cadence
+- Report design needs
+- Governance requirements
 
-## Upstream Dependencies
+## Outputs
 
-- [Dependency]
-
-## Downstream Consumers
-
-- [Consumer]
+- Reports
+- Dashboards
+- Semantic models
+- Apps
+- KPIs
+- Metrics glossary
+- Usage insights
+- Certified or promoted content
+- Deployment artifacts
 
 ## Architecture Decision Points
 
-| Decision | Options | Tradeoffs | Recommendation |
-|---|---|---|---|
-| [Decision] | [Options] | [Tradeoffs] | [Recommendation] |
+| Decision | Options | Tradeoff |
+|---|---|---|
+| Source strategy | Direct source, warehouse, lakehouse, curated table | Direct source may be fast; governed source improves trust. |
+| Storage mode | Import, DirectQuery, composite | Import improves performance; DirectQuery improves freshness but depends on source. |
+| Model strategy | One-off model, shared semantic model, certified model | Shared models improve reuse but require ownership. |
+| Distribution | Workspace sharing, app, embedded, export | Apps improve controlled distribution. |
+| Governance level | Ad hoc, promoted, certified, production controlled | More governance improves trust but requires process. |
 
 ## Risks
 
-- [Risk]
+- Conflicting metrics
+- Slow reports
+- Refresh failures
+- Poor access control
+- Report sprawl
+- Stale content
+- Weak ownership
+- Unclear source lineage
+- Low user adoption
 
-## Governance Considerations
+## Architecture Growth Path
 
-- [Governance item]
-
-## Beginner-to-Pro Architecture Growth
-
-| Level | Architecture Skill |
+| Level | Skill |
 |---|---|
-| Beginner | Recognize where this topic fits in a simple diagram. |
-| Advanced Beginner | Explain basic inputs, outputs, and dependencies. |
-| Intermediate Practitioner | Create a current-state and future-state view. |
-| Advanced Practitioner | Evaluate tradeoffs and design reusable patterns. |
-| Enterprise Professional | Align architecture with governance and operations. |
-| Architect / Strategic Lead | Define strategy, roadmaps, and enterprise standards. |
+| Beginner | Read a report-to-source diagram. |
+| Advanced Beginner | Identify source, model, report, and user. |
+| Intermediate Practitioner | Create a simple BI architecture view. |
+| Advanced Practitioner | Compare model, storage, and deployment tradeoffs. |
+| Enterprise Professional | Align BI design with governance and lifecycle. |
+| Architect / Strategic Lead | Define BI reference patterns and platform strategy. |

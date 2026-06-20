@@ -2,44 +2,45 @@
 title: "Semantic Modeling Common Frameworks"
 domain: "Analytics and BI"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Analytics/BI Draft"
 last_updated: "2026-06-20"
 tags:
-  - semantic
-  - modeling
-related: []
+  - analytics-bi
+  - semantic-modeling
+  - frameworks
+related:
+  - ../
 ---
 
 # Semantic Modeling Common Frameworks, Models, and Patterns
 
 ## Purpose
 
-Use this file to capture frameworks, models, methodologies, and reusable patterns related to Semantic Modeling.
+Use this file to capture frameworks, methods, models, and reusable patterns related to **Semantic Modeling**.
 
 ## Frameworks and Patterns
 
-| Name | What It Is | When to Use It | Benefits | Limitations | Example |
-|---|---|---|---|---|---|
-| [Framework / Pattern] | [Description] | [Use case] | [Benefits] | [Limitations] | [Example] |
+| Framework / Pattern | What It Is | When to Use It | Benefit | Watchout |
+|---|---|---|---|---|
+| Star Schema | A common analytics, BI, modeling, or governance pattern. | Use when it fits the audience, data, and operating model. | Improves consistency, trust, and maintainability. | Avoid applying it mechanically without business context. |
+| Kimball Dimensional Modeling | A common analytics, BI, modeling, or governance pattern. | Use when it fits the audience, data, and operating model. | Improves consistency, trust, and maintainability. | Avoid applying it mechanically without business context. |
+| DAX Best Practices | A common analytics, BI, modeling, or governance pattern. | Use when it fits the audience, data, and operating model. | Improves consistency, trust, and maintainability. | Avoid applying it mechanically without business context. |
+| Measure Branching | A common analytics, BI, modeling, or governance pattern. | Use when it fits the audience, data, and operating model. | Improves consistency, trust, and maintainability. | Avoid applying it mechanically without business context. |
+| Shared Semantic Model Pattern | A common analytics, BI, modeling, or governance pattern. | Use when it fits the audience, data, and operating model. | Improves consistency, trust, and maintainability. | Avoid applying it mechanically without business context. |
+| Thin Reports | A common analytics, BI, modeling, or governance pattern. | Use when it fits the audience, data, and operating model. | Improves consistency, trust, and maintainability. | Avoid applying it mechanically without business context. |
+| Certified Semantic Model Pattern | A common analytics, BI, modeling, or governance pattern. | Use when it fits the audience, data, and operating model. | Improves consistency, trust, and maintainability. | Avoid applying it mechanically without business context. |
 
-## Decision Criteria
+## Framework Selection Questions
 
-When choosing a framework or pattern, ask:
+1. What decision or audience does this support?
+2. Is this an executive, operational, analytical, or self-service use case?
+3. What level of governance is required?
+4. Should this use a shared semantic model?
+5. Should the content be promoted or certified?
+6. What deployment lifecycle is required?
+7. How will adoption and usage be monitored?
+8. What should be retired or consolidated?
 
-1. What problem are we trying to solve?
-2. Is the pattern appropriate for the scale and risk?
-3. Does the team have the skills to apply it?
-4. Is it too heavy or too light?
-5. Does it support governance and maintainability?
-6. Can it be reused?
+## Practical Rule
 
-## Beginner-to-Pro Framework Growth
-
-| Level | Framework Capability |
-|---|---|
-| Beginner | Recognize common frameworks by name. |
-| Advanced Beginner | Understand when a framework might be useful. |
-| Intermediate Practitioner | Apply a framework to a real scenario. |
-| Advanced Practitioner | Adapt frameworks to context. |
-| Enterprise Professional | Standardize patterns across teams. |
-| Architect / Strategic Lead | Select and govern frameworks at enterprise scale. |
+Good BI patterns help users trust the numbers and act on them. If a pattern makes the report harder to understand or support, simplify it.
