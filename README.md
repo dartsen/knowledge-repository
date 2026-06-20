@@ -1,43 +1,34 @@
----
-title: "Governance, Risk, and Controls"
-domain: "Governance, Risk, and Controls"
-level: "Beginner to Pro"
-status: "Phase 4 Expanded"
-last_updated: "2026-06-20"
-tags:
-  - 08-governance-risk-controls
-  - expanded
-related:
-  - ../
----
+# Git Knowledge Repository
 
-# Governance, Risk, and Controls
+This repository is a structured personal knowledge base for technology, data, AI, analytics, automation, software engineering, architecture, governance, and business context.
 
-This folder contains expanded beginner-to-pro guides for the **Governance, Risk, and Controls** domain.
+The goal is to make complex subjects easy to learn, explain, apply, troubleshoot, govern, and improve over time.
 
-## Topics
+## Learning Method
 
-| Topic | Purpose |
+Each subject follows a **beginner-to-pro progression**:
+
+1. Beginner
+2. Advanced Beginner
+3. Intermediate Practitioner
+4. Advanced Practitioner
+5. Enterprise Professional
+6. Architect / Strategic Lead
+
+## Main Domains
+
+| Folder | Domain |
 |---|---|
-| [Data Governance](./data-governance/README.md) | Data Governance defines ownership, quality, definitions, access, lineage, lifecycle, and accountability for data assets. |
-| [AI Governance](./ai-governance/README.md) | AI Governance defines how AI systems and AI-assisted work are approved, monitored, controlled, documented, and reviewed. |
-| [Security](./security/README.md) | Security protects systems, identities, data, applications, and processes from unauthorized access, misuse, loss, or compromise. |
-| [Auditability](./auditability/README.md) | Auditability is the ability to prove what happened, who approved it, what changed, what controls exist, and how evidence can be reviewed. |
-| [Change Management](./change-management/README.md) | Change Management controls how changes are assessed, approved, tested, deployed, communicated, and reviewed. |
-| [Compliance](./compliance/README.md) | Compliance is the practice of meeting legal, regulatory, contractual, internal policy, and audit obligations. |
-| [Operational Risk](./operational-risk/README.md) | Operational Risk is the risk of loss, disruption, error, or failure caused by people, process, systems, data, or external events. |
+| `01-architecture/` | Architecture |
+| `02-data-engineering/` | Data Engineering |
+| `03-analytics-bi/` | Analytics and BI |
+| `04-ai-machine-learning/` | AI and Machine Learning |
+| `05-automation/` | Automation |
+| `06-software-engineering/` | Software Engineering |
+| `07-cloud-devops/` | Cloud and DevOps |
+| `08-governance-risk-controls/` | Governance, Risk, and Controls |
+| `09-business-context/` | Business Context |
+| `10-quick-reference-sheets/` | Quick Reference Sheets |
+| `99-templates/` | Reusable Templates |
 
-## Domain-Level Use
-
-Use this domain to learn, apply, govern, troubleshoot, and improve work related to Governance, Risk, and Controls.
-
-## Beginner-to-Pro Progression
-
-```text
-Beginner
-  → Advanced Beginner
-  → Intermediate Practitioner
-  → Advanced Practitioner
-  → Enterprise Professional
-  → Architect / Strategic Lead
-```
+Generated: 2026-06-20
