@@ -2,12 +2,14 @@
 title: "Data Quality Governance Checklist"
 domain: "Data Engineering"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Draft"
 last_updated: "2026-06-20"
 tags:
-  - data
-  - quality
-related: []
+  - data-engineering
+  - data-quality
+  - governance
+related:
+  - ../
 ---
 
 # Data Quality Governance Checklist
@@ -15,64 +17,61 @@ related: []
 ## Ownership
 
 - [ ] Business owner identified
+- [ ] Data owner identified
 - [ ] Technical owner identified
-- [ ] Data owner identified, if applicable
 - [ ] Support owner identified
-- [ ] Escalation path documented
+- [ ] Downstream consumers documented
 
-## Access Control
+## Access
 
 - [ ] Access requirements documented
 - [ ] Least privilege applied
-- [ ] Sensitive data reviewed
-- [ ] Service accounts or service principals reviewed
+- [ ] Group-based access preferred
+- [ ] Service principal access reviewed
+- [ ] Sensitive data classified
 - [ ] Access review cadence defined
+
+## Data Quality
+
+- [ ] Required fields identified
+- [ ] Grain documented
+- [ ] Key tests defined
+- [ ] Relationship tests defined
+- [ ] Freshness expectations defined
+- [ ] Reconciliation checks defined where needed
+- [ ] Data quality failure behavior defined
 
 ## Change Management
 
-- [ ] Change impact assessed
-- [ ] Testing evidence captured
-- [ ] Release plan documented
-- [ ] Rollback or fallback plan documented
-- [ ] Stakeholders informed
+- [ ] Upstream impact assessed
+- [ ] Downstream impact assessed
+- [ ] Tests run before deployment
+- [ ] Breaking changes communicated
+- [ ] Rollback or remediation plan defined
+- [ ] Release notes documented
 
 ## Auditability
 
+- [ ] Code version-controlled
+- [ ] Job history available
+- [ ] Test results available
+- [ ] Lineage available
+- [ ] Access logs available
 - [ ] Decision records available
-- [ ] Logs available
-- [ ] Approval trail available
-- [ ] Documentation stored in approved location
-- [ ] Version history available
-
-## Data Sensitivity
-
-- [ ] Data classification reviewed
-- [ ] PII or confidential data identified
-- [ ] Retention requirements considered
-- [ ] Downstream usage documented
 
 ## Operational Readiness
 
-- [ ] Monitoring defined
-- [ ] Alerts defined
+- [ ] Monitoring configured
+- [ ] Alerts configured
 - [ ] Runbook available
-- [ ] Support model defined
-- [ ] Incident process documented
+- [ ] SLA or refresh expectation defined
+- [ ] Support process documented
+- [ ] Incident review process defined
 
 ## Continuous Improvement
 
-- [ ] Metrics defined
-- [ ] Feedback loop defined
+- [ ] Metrics reviewed periodically
 - [ ] Technical debt tracked
-- [ ] Review cadence established
-
-## Beginner-to-Pro Governance Growth
-
-| Level | Governance Capability |
-|---|---|
-| Beginner | Understand why ownership and controls matter. |
-| Advanced Beginner | Follow basic review checklists. |
-| Intermediate Practitioner | Apply governance to real work. |
-| Advanced Practitioner | Balance control, speed, risk, and usability. |
-| Enterprise Professional | Define operating models and review gates. |
-| Architect / Strategic Lead | Shape governance strategy and enterprise standards. |
+- [ ] Lessons learned captured
+- [ ] Unused assets reviewed
+- [ ] Documentation updated

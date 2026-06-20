@@ -2,63 +2,70 @@
 title: "Data Modeling Business Context"
 domain: "Data Engineering"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Draft"
 last_updated: "2026-06-20"
 tags:
-  - data
-  - modeling
-related: []
+  - data-engineering
+  - data-modeling
+  - business-context
+related:
+  - ../
 ---
 
 # Data Modeling Business Context
 
 ## Business Purpose
 
-[Explain why the business should care about Data Modeling.]
+Data Modeling should support a real business outcome, not exist as technical activity for its own sake.
 
 ## Business Value
 
-| Value Area | How Data Modeling Can Help |
+| Value Area | How It Helps |
 |---|---|
-| Efficiency | [Explanation] |
-| Cost Reduction | [Explanation] |
-| Risk Reduction | [Explanation] |
-| Quality | [Explanation] |
-| Scalability | [Explanation] |
-| Decision-Making | [Explanation] |
-| Governance | [Explanation] |
+| Consistent Reporting | Improves business outcomes by making data more reliable, usable, secure, and aligned to real needs. |
+| Clear Business Definitions | Improves business outcomes by making data more reliable, usable, secure, and aligned to real needs. |
+| Better Query Performance | Improves business outcomes by making data more reliable, usable, secure, and aligned to real needs. |
+| Reusable Data Products | Improves business outcomes by making data more reliable, usable, secure, and aligned to real needs. |
+| Reduced Confusion | Improves business outcomes by making data more reliable, usable, secure, and aligned to real needs. |
+| Automation Reliability | Improves business outcomes by making data more reliable, usable, secure, and aligned to real needs. |
 
 ## Stakeholders
 
-- Business owner:
-- Technical owner:
-- Data owner:
-- Operations owner:
-- Governance / risk partner:
-- End users:
+- Business owner
+- Data owner
+- Data engineer
+- Analytics engineer
+- BI developer
+- Automation engineer
+- Platform owner
+- Security / governance partner
+- Operations support owner
+- End users
 
 ## Common Business Questions
 
-1. What problem are we solving?
-2. What value does this create?
-3. What process does this improve?
-4. What risk does this reduce?
-5. What happens if we do nothing?
-6. How will success be measured?
+1. What decision, report, process, automation, or AI use case does this support?
+2. What is the cost of bad or late data?
+3. Who trusts and owns the output?
+4. How frequently does the data need to refresh?
+5. What quality level is required?
+6. What risks are acceptable?
+7. What should happen when data fails validation?
+8. How will success be measured?
 
 ## Metrics
 
-| Metric | Definition | Why It Matters |
-|---|---|---|
-| [Metric] | [Definition] | [Importance] |
-
-## Beginner-to-Pro Business Growth
-
-| Level | Business Skill |
+| Metric | Why It Matters |
 |---|---|
-| Beginner | Explain why the subject matters. |
-| Advanced Beginner | Connect the subject to a business process. |
-| Intermediate Practitioner | Identify business value and risks. |
-| Advanced Practitioner | Define measures and tradeoffs. |
-| Enterprise Professional | Align with strategy, governance, and operating model. |
-| Architect / Strategic Lead | Shape investment decisions and roadmaps. |
+| Pipeline success rate | Shows operational reliability. |
+| Data freshness | Shows whether data is available on time. |
+| Test pass rate | Shows data quality health. |
+| Incident count | Shows stability and support burden. |
+| Consumer adoption | Shows business usefulness. |
+| Query performance | Shows usability and scalability. |
+| Cost trend | Shows platform efficiency. |
+| Manual work reduced | Shows business efficiency. |
+
+## Business Explanation Template
+
+> We use Data Modeling to make sure data is accurate, trusted, available, governed, and ready for the business processes, reports, automations, and AI use cases that depend on it.

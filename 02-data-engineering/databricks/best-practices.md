@@ -2,72 +2,79 @@
 title: "Databricks Best Practices"
 domain: "Data Engineering"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Draft"
 last_updated: "2026-06-20"
 tags:
+  - data-engineering
   - databricks
-related: []
+  - best-practices
+related:
+  - ../
 ---
 
 # Databricks Best Practices
 
-Use this guide to capture practical standards and repeatable approaches for Databricks.
-
 ## Design
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Start with the use case and consumer.
+- Define source of truth.
+- Document grain and business definitions.
+- Separate reusable logic from use-case-specific logic.
 
 ## Development
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Use version control.
+- Use consistent naming.
+- Build modularly.
+- Validate frequently.
 
 ## Testing
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Test keys, nulls, relationships, accepted values, freshness, and reconciliation.
+- Add tests for known defects.
+- Validate with data owners.
 
 ## Documentation
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Document sources, models, columns, owners, refresh cadence, and consumers.
+- Add examples and lineage.
+- Keep README files current.
 
 ## Security
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Use least privilege.
+- Avoid personal-account dependencies.
+- Classify sensitive data.
+- Review external access.
 
 ## Governance
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Define ownership.
+- Use approvals for production changes.
+- Track lineage.
+- Manage data quality exceptions.
 
 ## Maintenance
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Monitor failures.
+- Review unused assets.
+- Track technical debt.
+- Improve based on incidents.
 
 ## Scalability
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Plan for more data and consumers.
+- Optimize high-volume models.
+- Use appropriate materializations.
+- Standardize reusable patterns.
 
-## Beginner-to-Pro Best-Practice Growth
+## Maturity Progression
 
-| Level | Focus |
+| Level | Practice Focus |
 |---|---|
-| Beginner | Learn the basic do's and don'ts. |
-| Advanced Beginner | Follow a checklist consistently. |
-| Intermediate Practitioner | Apply best practices in real work. |
-| Advanced Practitioner | Adapt best practices to complexity and scale. |
-| Enterprise Professional | Standardize best practices across teams. |
-| Architect / Strategic Lead | Define principles, guardrails, and reusable patterns. |
+| Beginner | Understand good habits. |
+| Advanced Beginner | Follow simple checklists. |
+| Intermediate Practitioner | Apply standards in real work. |
+| Advanced Practitioner | Improve quality, reliability, and performance. |
+| Enterprise Professional | Standardize across teams. |
+| Architect / Strategic Lead | Define data engineering principles and reference patterns. |

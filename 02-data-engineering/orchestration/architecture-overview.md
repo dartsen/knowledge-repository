@@ -2,81 +2,96 @@
 title: "Orchestration Architecture Overview"
 domain: "Data Engineering"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Draft"
 last_updated: "2026-06-20"
 tags:
+  - data-engineering
   - orchestration
-related: []
+  - architecture
+related:
+  - ../
 ---
 
 # Orchestration Architecture Overview
 
 ## Purpose
 
-[Explain how Orchestration fits into the broader enterprise architecture.]
+This document explains how **Orchestration** fits into a broader data and enterprise architecture.
 
-## Architecture Layers to Consider
+## Architecture Context
 
-- Business capability
-- Business process
-- Data
-- Application
-- Integration
-- Technology
-- Security
-- Governance
-- Operations
-- Monitoring
+```text
+Source Systems
+  → Ingestion
+  → Storage / Lakehouse
+  → Transformation
+  → Validation
+  → Governance
+  → Consumption
+  → Monitoring
+```
 
-## Context Diagram
+## Where Orchestration Fits
 
 ```text
 Business Need
+  → Data Requirement
   → Orchestration
-  → Supporting Systems / Data / Processes
-  → Consumers / Users / Automation / Reporting
-  → Monitoring and Improvement
+  → Trusted Data Product / Output
+  → BI / Automation / AI / Operations
 ```
 
-## Common Inputs
+## Inputs
 
-- [Input]
-- [Input]
+- Business requirements
+- Source data
+- Data definitions
+- Transformation rules
+- Quality rules
+- Access requirements
+- Refresh expectations
+- Consumer requirements
 
-## Common Outputs
+## Outputs
 
-- [Output]
-- [Output]
-
-## Upstream Dependencies
-
-- [Dependency]
-
-## Downstream Consumers
-
-- [Consumer]
+- Tables or views
+- Models
+- Tests
+- Documentation
+- Lineage
+- Monitoring signals
+- Data quality results
+- Governed consumption path
 
 ## Architecture Decision Points
 
-| Decision | Options | Tradeoffs | Recommendation |
-|---|---|---|---|
-| [Decision] | [Options] | [Tradeoffs] | [Recommendation] |
+| Decision | Options | Tradeoff |
+|---|---|---|
+| Layer placement | Raw, conformed, curated | Earlier layers improve reuse; curated layers improve consumption fit. |
+| Materialization | View, table, incremental, stream | Views are flexible; tables can improve performance. |
+| Access pattern | Direct query, BI dataset, API, automation lookup | Each differs in latency, governance, and operational risk. |
+| Quality behavior | Block, warn, quarantine, remediate | Blocking protects consumers but may delay business processes. |
+| Ownership | Central data team, domain team, platform team, shared | Ownership must match skills and accountability. |
 
 ## Risks
 
-- [Risk]
+- Poor source understanding
+- Incorrect grain
+- Undocumented logic
+- Weak data quality
+- Broken downstream dependencies
+- Permission gaps
+- Overly broad access
+- Cost or performance issues
+- No operational support
 
-## Governance Considerations
+## Architecture Growth Path
 
-- [Governance item]
-
-## Beginner-to-Pro Architecture Growth
-
-| Level | Architecture Skill |
+| Level | Skill |
 |---|---|
-| Beginner | Recognize where this topic fits in a simple diagram. |
-| Advanced Beginner | Explain basic inputs, outputs, and dependencies. |
-| Intermediate Practitioner | Create a current-state and future-state view. |
-| Advanced Practitioner | Evaluate tradeoffs and design reusable patterns. |
-| Enterprise Professional | Align architecture with governance and operations. |
-| Architect / Strategic Lead | Define strategy, roadmaps, and enterprise standards. |
+| Beginner | Read a basic data flow. |
+| Advanced Beginner | Identify sources, transformations, and consumers. |
+| Intermediate Practitioner | Create a simple current-state and target-state design. |
+| Advanced Practitioner | Compare patterns and tradeoffs. |
+| Enterprise Professional | Align design with governance and operations. |
+| Architect / Strategic Lead | Define standards and reusable patterns across teams. |

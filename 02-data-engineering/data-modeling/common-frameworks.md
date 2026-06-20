@@ -2,44 +2,45 @@
 title: "Data Modeling Common Frameworks"
 domain: "Data Engineering"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Draft"
 last_updated: "2026-06-20"
 tags:
-  - data
-  - modeling
-related: []
+  - data-engineering
+  - data-modeling
+  - frameworks
+related:
+  - ../
 ---
 
 # Data Modeling Common Frameworks, Models, and Patterns
 
 ## Purpose
 
-Use this file to capture frameworks, models, methodologies, and reusable patterns related to Data Modeling.
+Use this file to capture frameworks, methods, models, and reusable patterns related to **Data Modeling**.
 
 ## Frameworks and Patterns
 
-| Name | What It Is | When to Use It | Benefits | Limitations | Example |
-|---|---|---|---|---|---|
-| [Framework / Pattern] | [Description] | [Use case] | [Benefits] | [Limitations] | [Example] |
+| Framework / Pattern | What It Is | When to Use It | Benefit | Watchout |
+|---|---|---|---|---|
+| Dimensional Modeling | A common data engineering method, operating model, or design pattern. | Use when it fits the business, data, and platform context. | Improves consistency and quality. | Avoid applying it mechanically without context. |
+| Entity Relationship Modeling | A common data engineering method, operating model, or design pattern. | Use when it fits the business, data, and platform context. | Improves consistency and quality. | Avoid applying it mechanically without context. |
+| Data Vault | A common data engineering method, operating model, or design pattern. | Use when it fits the business, data, and platform context. | Improves consistency and quality. | Avoid applying it mechanically without context. |
+| Star Schema | A common data engineering method, operating model, or design pattern. | Use when it fits the business, data, and platform context. | Improves consistency and quality. | Avoid applying it mechanically without context. |
+| Wide Table Design | A common data engineering method, operating model, or design pattern. | Use when it fits the business, data, and platform context. | Improves consistency and quality. | Avoid applying it mechanically without context. |
+| Canonical Modeling | A common data engineering method, operating model, or design pattern. | Use when it fits the business, data, and platform context. | Improves consistency and quality. | Avoid applying it mechanically without context. |
+| Domain Modeling | A common data engineering method, operating model, or design pattern. | Use when it fits the business, data, and platform context. | Improves consistency and quality. | Avoid applying it mechanically without context. |
 
-## Decision Criteria
+## Framework Selection Questions
 
-When choosing a framework or pattern, ask:
+1. What problem are we solving?
+2. Is this a modeling, governance, quality, lineage, orchestration, or consumption problem?
+3. What level of control is required?
+4. What is the expected scale?
+5. What tools are already approved?
+6. Does the team understand the pattern?
+7. Can the pattern be supported in production?
+8. How will the pattern be documented and improved?
 
-1. What problem are we trying to solve?
-2. Is the pattern appropriate for the scale and risk?
-3. Does the team have the skills to apply it?
-4. Is it too heavy or too light?
-5. Does it support governance and maintainability?
-6. Can it be reused?
+## Practical Rule
 
-## Beginner-to-Pro Framework Growth
-
-| Level | Framework Capability |
-|---|---|
-| Beginner | Recognize common frameworks by name. |
-| Advanced Beginner | Understand when a framework might be useful. |
-| Intermediate Practitioner | Apply a framework to a real scenario. |
-| Advanced Practitioner | Adapt frameworks to context. |
-| Enterprise Professional | Standardize patterns across teams. |
-| Architect / Strategic Lead | Select and govern frameworks at enterprise scale. |
+Use patterns to reduce repeated decision-making, not to eliminate judgment.

@@ -2,72 +2,77 @@
 title: "SQL Troubleshooting Guide"
 domain: "Data Engineering"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 3 Draft"
 last_updated: "2026-06-20"
 tags:
+  - data-engineering
   - sql
-related: []
+  - troubleshooting
+related:
+  - ../
 ---
 
 # SQL Troubleshooting Guide
 
 ## Troubleshooting Mindset
 
-When something goes wrong with SQL, investigate systematically:
+Troubleshooting data engineering issues requires following the data from source to consumption.
 
-1. What changed recently?
-2. What is the expected outcome?
-3. What is actually happening?
-4. What systems, data, people, or processes are involved?
-5. Where is the failure occurring?
-6. Who owns the failed component?
-7. What evidence do we have?
-8. What temporary workaround exists?
-9. What permanent fix is needed?
-10. How do we prevent recurrence?
+```text
+Symptom
+  → Consumer Impact
+  → Affected Layer
+  → Recent Change
+  → Source / Transform / Access / Runtime Check
+  → Root Cause
+  → Resolution
+  → Prevention
+```
 
 ## Common Issues
 
 | Issue | Likely Cause | Investigation Steps | Resolution | Prevention |
 |---|---|---|---|---|
-| [Issue] | [Cause] | [Steps] | [Resolution] | [Prevention] |
+| Data missing | Source issue, filter error, late arrival | Check source, ingestion logs, filters, row counts | Fix source or transformation and rerun | Add freshness and volume checks |
+| Duplicates | Incorrect grain or join logic | Check keys, joins, row counts | Fix grain or deduplication logic | Add uniqueness tests |
+| Pipeline failure | Runtime, permission, code, or dependency issue | Review job logs and recent changes | Fix and rerun safely | Add retries and alerts |
+| Report mismatch | Conflicting definitions | Compare model and report logic | Standardize metric definition | Use governed semantic layer or glossary |
+| Access denied | Missing grant or wrong identity | Check permissions and groups | Grant correct least-privilege access | Document access model |
+| Slow query | Poor model design or inefficient SQL | Review query plan and table design | Optimize model or materialization | Monitor performance and usage |
+| Test failure | Data defect or rule mismatch | Review failed rows and business rule | Fix data or adjust rule with owner approval | Add issue tracking and source feedback |
 
 ## Evidence to Collect
 
-- Logs
-- Screenshots
-- Error messages
-- Run history
-- Data samples
-- Configuration changes
-- Recent releases
-- User reports
-- Monitoring alerts
-- Access records
+- Job run ID
+- Error message
+- Recent commits
+- Source row counts
+- Target row counts
+- Failed test output
+- Query history
+- Access logs
+- Lineage diagram
+- Business impact
+- Screenshots or sample records
 
 ## Escalation
 
-| Situation | Escalate To | Information to Provide |
-|---|---|---|
-| [Situation] | [Team / Owner] | [Details] |
+| Issue Type | Escalate To |
+|---|---|
+| Source data issue | Source system owner |
+| Transformation bug | Data engineering / analytics engineering |
+| Access issue | Platform / IAM / data governance |
+| Business rule conflict | Business owner / data owner |
+| Performance issue | Platform team / data engineering |
+| Downstream report issue | BI owner |
+| Automation impact | Automation owner |
 
 ## Post-Incident Review
 
 - What failed?
-- Why did it fail?
-- What was the impact?
+- What was the business impact?
 - How was it detected?
-- How was it resolved?
-- What should change?
-- Who owns the preventive action?
-
-## Beginner-to-Pro Troubleshooting Growth
-
-| Level | Troubleshooting Capability |
-|---|---|
-| Beginner | Follow simple checklists. |
-| Advanced Beginner | Identify common failure patterns. |
-| Intermediate Practitioner | Diagnose issues using evidence. |
-| Advanced Practitioner | Find root causes across systems and processes. |
-| Enterprise Professional | Improve monitoring, ownership, and prevention. |
-| Architect / Strategic Lead | Redesign patterns to reduce recurring failures. |
+- Was monitoring sufficient?
+- Was ownership clear?
+- What test or alert would have caught it earlier?
+- What documentation needs updating?
