@@ -2,74 +2,47 @@
 title: "Applied AI Patterns Best Practices"
 domain: "AI and Machine Learning"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Expanded Draft"
 last_updated: "2026-06-20"
 tags:
-  - applied
-  - ai
-  - patterns
-related: []
+  - ai-and-machine-learning
+  - applied-ai-patterns
+  - best-practices
+related:
+  - ../
 ---
 
 # Applied AI Patterns Best Practices
 
-Use this guide to capture practical standards and repeatable approaches for Applied AI Patterns.
-
 ## Design
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Start with the business outcome.
+- Define scope and owner.
+- Identify dependencies.
+- Keep patterns reusable.
 
 ## Development
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Use version control.
+- Keep naming consistent.
+- Validate early.
+- Document decisions.
 
 ## Testing
 
-- [Best practice]
-- [Why it matters]
-- [Example]
-
-## Documentation
-
-- [Best practice]
-- [Why it matters]
-- [Example]
-
-## Security
-
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Test expected and failure paths.
+- Validate with real examples.
+- Capture evidence.
 
 ## Governance
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Define controls.
+- Review access.
+- Track exceptions.
+- Monitor after go-live.
 
 ## Maintenance
 
-- [Best practice]
-- [Why it matters]
-- [Example]
-
-## Scalability
-
-- [Best practice]
-- [Why it matters]
-- [Example]
-
-## Beginner-to-Pro Best-Practice Growth
-
-| Level | Focus |
-|---|---|
-| Beginner | Learn the basic do's and don'ts. |
-| Advanced Beginner | Follow a checklist consistently. |
-| Intermediate Practitioner | Apply best practices in real work. |
-| Advanced Practitioner | Adapt best practices to complexity and scale. |
-| Enterprise Professional | Standardize best practices across teams. |
-| Architect / Strategic Lead | Define principles, guardrails, and reusable patterns. |
+- Review periodically.
+- Retire stale content.
+- Add lessons learned.

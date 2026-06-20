@@ -2,77 +2,48 @@
 title: "AI Governance Governance Checklist"
 domain: "AI and Machine Learning"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Expanded Draft"
 last_updated: "2026-06-20"
 tags:
-  - ai
-  - governance
-related: []
+  - ai-and-machine-learning
+  - ai-governance
+  - governance-checklist
+related:
+  - ../
 ---
 
 # AI Governance Governance Checklist
 
 ## Ownership
 
-- [ ] Business owner identified
-- [ ] Technical owner identified
-- [ ] Data owner identified, if applicable
-- [ ] Support owner identified
-- [ ] Escalation path documented
+- [ ] Business owner
+- [ ] Technical owner
+- [ ] Support owner
+- [ ] Escalation path
 
-## Access Control
+## Access and Security
 
-- [ ] Access requirements documented
-- [ ] Least privilege applied
+- [ ] Least privilege
 - [ ] Sensitive data reviewed
-- [ ] Service accounts or service principals reviewed
-- [ ] Access review cadence defined
+- [ ] Access review cadence
 
 ## Change Management
 
-- [ ] Change impact assessed
-- [ ] Testing evidence captured
-- [ ] Release plan documented
-- [ ] Rollback or fallback plan documented
-- [ ] Stakeholders informed
+- [ ] Impact assessed
+- [ ] Testing evidence
+- [ ] Approval captured
+- [ ] Rollback or remediation plan
 
 ## Auditability
 
-- [ ] Decision records available
-- [ ] Logs available
-- [ ] Approval trail available
-- [ ] Documentation stored in approved location
-- [ ] Version history available
+- [ ] Version history
+- [ ] Decision record
+- [ ] Logs or evidence
+- [ ] Documentation stored
 
-## Data Sensitivity
+## Operations
 
-- [ ] Data classification reviewed
-- [ ] PII or confidential data identified
-- [ ] Retention requirements considered
-- [ ] Downstream usage documented
-
-## Operational Readiness
-
-- [ ] Monitoring defined
-- [ ] Alerts defined
-- [ ] Runbook available
-- [ ] Support model defined
-- [ ] Incident process documented
-
-## Continuous Improvement
-
-- [ ] Metrics defined
-- [ ] Feedback loop defined
-- [ ] Technical debt tracked
-- [ ] Review cadence established
-
-## Beginner-to-Pro Governance Growth
-
-| Level | Governance Capability |
-|---|---|
-| Beginner | Understand why ownership and controls matter. |
-| Advanced Beginner | Follow basic review checklists. |
-| Intermediate Practitioner | Apply governance to real work. |
-| Advanced Practitioner | Balance control, speed, risk, and usability. |
-| Enterprise Professional | Define operating models and review gates. |
-| Architect / Strategic Lead | Shape governance strategy and enterprise standards. |
+- [ ] Monitoring
+- [ ] Runbook
+- [ ] Incident process
+- [ ] Review cadence
