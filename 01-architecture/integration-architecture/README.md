@@ -2,48 +2,57 @@
 title: "Integration Architecture"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - integration
   - architecture
-related: []
+  - integration-architecture
+  - phase-2
+related:
+  - ../
 ---
 
 # Integration Architecture
 
+This folder contains the Phase 2 expanded architecture-domain documentation for **Integration Architecture**.
+
 ## Purpose
 
-This folder contains starter documentation for **Integration Architecture**.
+Integration Architecture defines how systems exchange data, events, requests, and responses reliably and securely.
 
-The goal is to develop this topic from a beginner-friendly introduction into a professional, enterprise-ready reference set.
-
-## Files in This Folder
+## Files
 
 | File | Purpose |
 |---|---|
-| `reference-guide.md` | Main beginner-to-pro guide for the subject. |
-| `quick-reference.md` | Concise cheat sheet for fast lookup. |
-| `architecture-overview.md` | How the subject fits into enterprise architecture. |
-| `business-context.md` | How the subject connects to business value. |
-| `best-practices.md` | Practical standards and recommended approaches. |
-| `troubleshooting-guide.md` | Common issues, causes, investigation steps, and resolutions. |
-| `governance-checklist.md` | Ownership, access, controls, approval, and operational readiness. |
-| `common-frameworks.md` | Relevant frameworks, models, patterns, and methods. |
-| `learning-path.md` | Beginner-to-pro progression plan. |
-| `examples/` | Practical examples, scenarios, and notes. |
+| `reference-guide.md` | Full beginner-to-pro guide. |
+| `quick-reference.md` | One-page lookup sheet. |
+| `architecture-overview.md` | Architecture positioning, flows, dependencies, and decisions. |
+| `business-context.md` | Business value, stakeholders, metrics, and use cases. |
+| `best-practices.md` | Practical best practices by category. |
+| `troubleshooting-guide.md` | Common problems, investigation steps, and prevention. |
+| `governance-checklist.md` | Controls, ownership, access, change, auditability, and support readiness. |
+| `common-frameworks.md` | Frameworks, models, and patterns. |
+| `learning-path.md` | Beginner-to-pro development plan. |
+| `examples/` | Practical examples and scenario notes. |
 
-## Beginner-to-Pro Goal
+## Recommended Reading Order
 
-Use this folder to answer:
+1. `README.md`
+2. `quick-reference.md`
+3. `reference-guide.md`
+4. `architecture-overview.md`
+5. `governance-checklist.md`
+6. `troubleshooting-guide.md`
+7. `learning-path.md`
 
-1. What is Integration Architecture?
-2. Why does it matter?
-3. How does it work?
-4. Where does it fit architecturally?
-5. How is it used in business?
-6. What can go wrong?
-7. How should it be governed?
-8. How do I troubleshoot it?
-9. How do I improve it over time?
-10. How do I grow from beginner to pro?
+## Beginner-to-Pro Objective
+
+By the time this topic is mature, it should help you:
+
+- Explain Integration Architecture simply.
+- Apply it to real enterprise work.
+- Connect it to business value.
+- Recognize risks and anti-patterns.
+- Troubleshoot common issues.
+- Govern it responsibly.
+- Discuss it confidently in meetings and interviews.

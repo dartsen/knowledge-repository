@@ -2,73 +2,81 @@
 title: "Enterprise Architecture Best Practices"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - enterprise
   - architecture
-related: []
+  - enterprise-architecture
+  - best-practices
+related:
+  - ../
 ---
 
 # Enterprise Architecture Best Practices
 
-Use this guide to capture practical standards and repeatable approaches for Enterprise Architecture.
-
 ## Design
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Start with the business problem.
+- Document current state before target state.
+- Identify assumptions and constraints.
+- Use diagrams to support decisions, not to decorate documents.
 
 ## Development
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Translate designs into delivery tasks.
+- Keep architecture close to implementation.
+- Use version control for important artifacts.
+- Validate feasibility with delivery teams.
 
 ## Testing
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Test assumptions and failure paths.
+- Validate data, access, integration, and performance.
+- Include business acceptance and operational readiness.
+- Confirm monitoring works before go-live.
 
 ## Documentation
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Maintain README files.
+- Use architecture decision records.
+- Keep diagrams current.
+- Document ownership and dependencies.
 
 ## Security
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Identify sensitive data early.
+- Apply least privilege.
+- Avoid hardcoded credentials.
+- Include security review before late-stage delivery.
 
 ## Governance
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Define decision rights.
+- Use risk-based review gates.
+- Track exceptions.
+- Keep governance useful and proportionate.
 
 ## Maintenance
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Review artifacts after major changes.
+- Track technical debt.
+- Update lessons learned.
+- Retire outdated patterns.
 
 ## Scalability
 
-- [Best practice]
-- [Why it matters]
-- [Example]
+- Use reusable patterns.
+- Avoid point-to-point sprawl.
+- Plan for more users and consumers.
+- Separate reusable capability from use-case-specific logic.
 
-## Beginner-to-Pro Best-Practice Growth
+## Best-Practice Maturity
 
-| Level | Focus |
+| Level | Practice Focus |
 |---|---|
-| Beginner | Learn the basic do's and don'ts. |
-| Advanced Beginner | Follow a checklist consistently. |
-| Intermediate Practitioner | Apply best practices in real work. |
-| Advanced Practitioner | Adapt best practices to complexity and scale. |
-| Enterprise Professional | Standardize best practices across teams. |
+| Beginner | Learn what good looks like. |
+| Advanced Beginner | Follow simple checklists. |
+| Intermediate Practitioner | Apply standards in real projects. |
+| Advanced Practitioner | Adapt standards to complexity. |
+| Enterprise Professional | Improve consistency across teams. |
 | Architect / Strategic Lead | Define principles, guardrails, and reusable patterns. |

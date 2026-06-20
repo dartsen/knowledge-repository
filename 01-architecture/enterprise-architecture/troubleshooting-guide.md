@@ -2,73 +2,91 @@
 title: "Enterprise Architecture Troubleshooting Guide"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - enterprise
   - architecture
-related: []
+  - enterprise-architecture
+  - troubleshooting
+related:
+  - ../
 ---
 
 # Enterprise Architecture Troubleshooting Guide
 
 ## Troubleshooting Mindset
 
-When something goes wrong with Enterprise Architecture, investigate systematically:
+Troubleshooting Enterprise Architecture means looking beyond a single error message. The issue may be caused by ownership gaps, unclear requirements, data quality, integration dependencies, missing controls, or operational readiness problems.
 
-1. What changed recently?
-2. What is the expected outcome?
-3. What is actually happening?
-4. What systems, data, people, or processes are involved?
-5. Where is the failure occurring?
-6. Who owns the failed component?
-7. What evidence do we have?
-8. What temporary workaround exists?
-9. What permanent fix is needed?
-10. How do we prevent recurrence?
+## Investigation Flow
+
+```text
+Symptom
+  → Recent Change
+  → Impacted Capability
+  → Impacted Systems / Data / Process
+  → Ownership
+  → Evidence
+  → Root Cause
+  → Resolution
+  → Prevention
+```
 
 ## Common Issues
 
 | Issue | Likely Cause | Investigation Steps | Resolution | Prevention |
 |---|---|---|---|---|
-| [Issue] | [Cause] | [Steps] | [Resolution] | [Prevention] |
+| Solution does not meet business need | Poor requirements or weak capability alignment | Review stakeholder goals and acceptance criteria | Rework requirements and design | Start with business problem and capability |
+| Downstream breakage | Dependency not documented | Review lineage and recent changes | Patch impacted consumer and update docs | Add impact analysis to change process |
+| Delayed approval | Security or governance engaged late | Review missing controls and access model | Complete review and adjust design | Include governance early |
+| High support burden | Operational readiness was weak | Review incidents, monitoring, runbooks | Add monitoring and support model | Use production readiness checklist |
+| Data mismatch | Conflicting definitions or poor quality | Compare source, transformation, and consumption | Define source of truth and tests | Establish data ownership and quality gates |
+| Duplicate solutions | Lack of reference pattern | Inventory similar tools and processes | Consolidate or standardize | Maintain pattern catalog |
 
 ## Evidence to Collect
 
+- Diagrams
+- Requirements
+- Work items
+- Pull requests
+- Data lineage
 - Logs
-- Screenshots
-- Error messages
 - Run history
-- Data samples
-- Configuration changes
-- Recent releases
+- Error messages
 - User reports
-- Monitoring alerts
 - Access records
+- Release notes
+- Monitoring alerts
 
-## Escalation
+## Escalation Model
 
-| Situation | Escalate To | Information to Provide |
-|---|---|---|
-| [Situation] | [Team / Owner] | [Details] |
+| Issue Type | Escalate To |
+|---|---|
+| Business requirement conflict | Business owner / product owner |
+| Data definition issue | Data owner / data governance |
+| Security or access issue | Security / IAM team |
+| Integration failure | Integration owner / platform team |
+| Production support issue | Operations / support owner |
+| Architecture decision conflict | Architecture lead / review board |
 
 ## Post-Incident Review
 
 - What failed?
-- Why did it fail?
 - What was the impact?
-- How was it detected?
-- How was it resolved?
-- What should change?
-- Who owns the preventive action?
+- Why did it happen?
+- Was the issue detected quickly?
+- Was ownership clear?
+- Was a workaround available?
+- What control or pattern needs to improve?
+- What documentation should be updated?
 
 ## Beginner-to-Pro Troubleshooting Growth
 
-| Level | Troubleshooting Capability |
+| Level | Capability |
 |---|---|
-| Beginner | Follow simple checklists. |
-| Advanced Beginner | Identify common failure patterns. |
-| Intermediate Practitioner | Diagnose issues using evidence. |
-| Advanced Practitioner | Find root causes across systems and processes. |
-| Enterprise Professional | Improve monitoring, ownership, and prevention. |
-| Architect / Strategic Lead | Redesign patterns to reduce recurring failures. |
+| Beginner | Follow a troubleshooting checklist. |
+| Advanced Beginner | Identify likely issue categories. |
+| Intermediate Practitioner | Diagnose using evidence. |
+| Advanced Practitioner | Find cross-system root causes. |
+| Enterprise Professional | Improve monitoring, governance, and ownership. |
+| Architect / Strategic Lead | Redesign patterns to prevent recurring issues. |

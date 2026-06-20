@@ -2,66 +2,86 @@
 title: "Reference Patterns Quick Reference"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - reference
-  - patterns
-related: []
+  - architecture
+  - reference-patterns
+  - quick-reference
+related:
+  - ../
 ---
 
 # Reference Patterns Quick Reference
 
 ## Plain-English Explanation
 
-[One to three sentences explaining Reference Patterns.]
+Reference Patterns are reusable architecture designs for common problems, allowing teams to move faster while staying consistent and governed.
+
+## Simple Analogy
+
+Think of them as proven recipes. You still adjust for the meal, but you do not invent the entire cooking method each time.
 
 ## Why It Matters
 
-- [Business value]
-- [Technical value]
-- [Governance value]
+- Faster Delivery
+- Consistency
+- Lower Risk
+- Reusability
+- Better Governance
+- Easier Onboarding
 
-## Key Concepts
-
-| Concept | Meaning |
-|---|---|
-| [Concept] | [Meaning] |
-
-## Common Workflow
+## Common Flow
 
 ```text
-[Step 1] → [Step 2] → [Step 3] → [Step 4] → [Improvement]
+Recurring Problem → Pattern Selection → Context Fit → Adaptation → Implementation → Review → Reuse / Improve
 ```
 
-## Best-Practice Reminders
+## Core Concepts
 
-- [Reminder]
-- [Reminder]
-- [Reminder]
+| Concept | Simple Explanation | Why It Matters | Example |
+|---|---|---|---|
+| Pattern | A reusable way to solve a recurring problem. | Avoids reinventing the wheel. | Standard automation lookup pattern. |
+| Context | The situation where a pattern applies. | Prevents misuse. | Use when several automations need the same curated data. |
+| Forces | The constraints and tradeoffs influencing the pattern. | Makes design reasoning clear. | Speed, security, data quality, ownership, cost. |
+| Solution Structure | The recommended design approach. | Helps teams implement consistently. | Source → conformed model → curated table → read-only lookup. |
+| Consequences | Benefits and tradeoffs of using the pattern. | Supports informed adoption. | More governance, but better reliability. |
+| Reuse Criteria | Rules for when to apply or adapt the pattern. | Prevents one-size-fits-all thinking. | Only use for stable, repeated needs. |
 
 ## Red Flags
 
-- [Red flag]
-- [Red flag]
-- [Red flag]
+- No clear owner.
+- Current state is not understood.
+- Target state is vague.
+- Dependencies are undocumented.
+- Governance is added too late.
+- Security is treated as an afterthought.
+- Monitoring and support are missing.
+- Decisions are not documented.
+- The solution solves a tool problem but not a business problem.
 
-## Troubleshooting Questions
+## Questions to Ask
 
-1. What changed recently?
-2. What is the expected behavior?
-3. Where does the actual behavior differ?
-4. What systems, data, or people are involved?
-5. Who owns the issue?
-6. What evidence do we have?
+1. What business outcome does this support?
+2. Who owns the process, data, and system?
+3. What is the current state?
+4. What target state are we moving toward?
+5. What risks and constraints exist?
+6. What standards apply?
+7. How will failure be handled?
+8. How will success be measured?
 
-## Beginner-to-Pro Notes
+## Meeting Soundbite
+
+> Reference Patterns helps us connect the business need to a practical, governed, and supportable approach so we avoid isolated decisions, hidden risk, and unnecessary technical debt.
+
+## Beginner-to-Pro Focus
 
 | Level | Focus |
 |---|---|
-| Beginner | Understand the basic idea and vocabulary. |
-| Advanced Beginner | Follow common workflows and explain the subject simply. |
-| Intermediate Practitioner | Apply the subject in a real project or business process. |
-| Advanced Practitioner | Handle edge cases, risks, quality, scale, and reliability. |
-| Enterprise Professional | Govern, monitor, document, and improve the subject across teams. |
-| Architect / Strategic Lead | Define strategy, standards, roadmaps, and reusable patterns. |
+| Beginner | Understand the basic purpose and vocabulary. |
+| Advanced Beginner | Identify common flows, stakeholders, inputs, and outputs. |
+| Intermediate Practitioner | Apply the concept to a real work scenario. |
+| Advanced Practitioner | Design for scale, quality, reliability, and supportability. |
+| Enterprise Professional | Connect the subject to governance, standards, and operating model. |
+| Architect / Strategic Lead | Shape roadmap, strategy, reusable patterns, and cross-team decisions. |

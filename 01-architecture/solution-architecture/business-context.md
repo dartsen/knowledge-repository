@@ -2,63 +2,81 @@
 title: "Solution Architecture Business Context"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - solution
   - architecture
-related: []
+  - solution-architecture
+  - business-context
+related:
+  - ../
 ---
 
 # Solution Architecture Business Context
 
-## Business Purpose
+## Purpose
 
-[Explain why the business should care about Solution Architecture.]
+Solution Architecture should always connect back to business value. Architecture work that cannot explain business value risks becoming theoretical.
 
-## Business Value
+## Business Value Areas
 
-| Value Area | How Solution Architecture Can Help |
+| Value Area | How It Helps |
 |---|---|
-| Efficiency | [Explanation] |
-| Cost Reduction | [Explanation] |
-| Risk Reduction | [Explanation] |
-| Quality | [Explanation] |
-| Scalability | [Explanation] |
-| Decision-Making | [Explanation] |
-| Governance | [Explanation] |
+| Faster Delivery | Solution Architecture supports this by making decisions, dependencies, ownership, and controls more visible and intentional. |
+| Clearer Requirements | Solution Architecture supports this by making decisions, dependencies, ownership, and controls more visible and intentional. |
+| Risk Reduction | Solution Architecture supports this by making decisions, dependencies, ownership, and controls more visible and intentional. |
+| Better Handoff To Delivery Teams | Solution Architecture supports this by making decisions, dependencies, ownership, and controls more visible and intentional. |
+| Implementation Consistency | Solution Architecture supports this by making decisions, dependencies, ownership, and controls more visible and intentional. |
+| Operational Readiness | Solution Architecture supports this by making decisions, dependencies, ownership, and controls more visible and intentional. |
 
 ## Stakeholders
 
-- Business owner:
-- Technical owner:
-- Data owner:
-- Operations owner:
-- Governance / risk partner:
-- End users:
+- Executive sponsor
+- Business process owner
+- Product owner
+- Solution architect
+- Data owner
+- Engineering lead
+- Security partner
+- Governance / risk partner
+- Operations / support owner
+- End users or downstream consumers
 
-## Common Business Questions
+## Questions Business Stakeholders May Ask
 
-1. What problem are we solving?
-2. What value does this create?
-3. What process does this improve?
-4. What risk does this reduce?
-5. What happens if we do nothing?
-6. How will success be measured?
+1. Why does this matter?
+2. What problem does this solve?
+3. What happens if we do nothing?
+4. What will this cost?
+5. What risk does this reduce?
+6. How does this improve speed, quality, or control?
+7. Who owns it after delivery?
+8. How will we measure success?
 
-## Metrics
+## Metrics to Consider
 
-| Metric | Definition | Why It Matters |
-|---|---|---|
-| [Metric] | [Definition] | [Importance] |
+| Metric | Why It Matters |
+|---|---|
+| Manual hours reduced | Shows efficiency gain. |
+| Defects or incidents reduced | Shows quality and reliability. |
+| Time to deliver change | Shows agility. |
+| Number of duplicate tools reduced | Shows simplification. |
+| Data quality score | Shows trust in information. |
+| Support tickets | Shows operational burden. |
+| Adoption rate | Shows whether the solution is useful. |
+| Governance exceptions | Shows control maturity. |
+
+## Business Explanation Template
+
+> We are using Solution Architecture to make sure the solution supports the business outcome, fits the broader technology environment, reduces avoidable risk, and can be governed and supported after go-live.
 
 ## Beginner-to-Pro Business Growth
 
 | Level | Business Skill |
 |---|---|
 | Beginner | Explain why the subject matters. |
-| Advanced Beginner | Connect the subject to a business process. |
-| Intermediate Practitioner | Identify business value and risks. |
-| Advanced Practitioner | Define measures and tradeoffs. |
+| Advanced Beginner | Connect it to a business process. |
+| Intermediate Practitioner | Identify value, risk, and stakeholders. |
+| Advanced Practitioner | Compare tradeoffs and define metrics. |
 | Enterprise Professional | Align with strategy, governance, and operating model. |
-| Architect / Strategic Lead | Shape investment decisions and roadmaps. |
+| Architect / Strategic Lead | Influence investment, roadmap, and capability decisions. |

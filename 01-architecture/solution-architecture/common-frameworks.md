@@ -2,44 +2,56 @@
 title: "Solution Architecture Common Frameworks"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - solution
   - architecture
-related: []
+  - solution-architecture
+  - frameworks
+related:
+  - ../
 ---
 
 # Solution Architecture Common Frameworks, Models, and Patterns
 
 ## Purpose
 
-Use this file to capture frameworks, models, methodologies, and reusable patterns related to Solution Architecture.
+Use this file to capture frameworks, models, and reusable patterns that support Solution Architecture.
 
 ## Frameworks and Patterns
 
-| Name | What It Is | When to Use It | Benefits | Limitations | Example |
-|---|---|---|---|---|---|
-| [Framework / Pattern] | [Description] | [Use case] | [Benefits] | [Limitations] | [Example] |
+| Framework / Pattern | What It Is | When to Use It | Benefit | Watchout |
+|---|---|---|---|---|
+| C4 Model | A commonly used method, model, or reusable approach related to Solution Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Best for software views, not full enterprise modeling. |
+| Architecture Decision Records | A commonly used method, model, or reusable approach related to Solution Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Only useful if maintained and discoverable. |
+| Non-Functional Requirements | A commonly used method, model, or reusable approach related to Solution Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Often ignored until late in delivery. |
+| Threat Modeling | A commonly used method, model, or reusable approach related to Solution Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Needs security participation. |
+| Reference Architecture | A commonly used method, model, or reusable approach related to Solution Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Must be adapted to context. |
+| Design Review Checklists | A commonly used method, model, or reusable approach related to Solution Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Can become checkbox bureaucracy. |
 
-## Decision Criteria
+## How to Choose a Framework
 
-When choosing a framework or pattern, ask:
+Ask:
 
-1. What problem are we trying to solve?
-2. Is the pattern appropriate for the scale and risk?
-3. Does the team have the skills to apply it?
-4. Is it too heavy or too light?
-5. Does it support governance and maintainability?
-6. Can it be reused?
+1. What problem are we solving?
+2. Is this a strategy, design, governance, delivery, or support problem?
+3. Is the framework too heavy for the context?
+4. Does the team understand how to use it?
+5. Will it improve decision-making?
+6. Will it improve delivery?
+7. Will it improve governance or supportability?
+
+## Practical Rule
+
+Use frameworks as guides. Do not let the framework become the work.
 
 ## Beginner-to-Pro Framework Growth
 
-| Level | Framework Capability |
+| Level | Capability |
 |---|---|
-| Beginner | Recognize common frameworks by name. |
-| Advanced Beginner | Understand when a framework might be useful. |
-| Intermediate Practitioner | Apply a framework to a real scenario. |
-| Advanced Practitioner | Adapt frameworks to context. |
+| Beginner | Recognize the framework names. |
+| Advanced Beginner | Understand when they are useful. |
+| Intermediate Practitioner | Apply one framework to a small scenario. |
+| Advanced Practitioner | Adapt frameworks to real constraints. |
 | Enterprise Professional | Standardize patterns across teams. |
-| Architect / Strategic Lead | Select and govern frameworks at enterprise scale. |
+| Architect / Strategic Lead | Select and govern frameworks at portfolio level. |

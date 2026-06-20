@@ -1,3 +1,3 @@
-# Templates
+# Architecture Templates
 
-Reusable templates for the Git knowledge repository.
+Reusable architecture templates for Phase 2.

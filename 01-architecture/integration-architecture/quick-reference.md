@@ -2,66 +2,86 @@
 title: "Integration Architecture Quick Reference"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - integration
   - architecture
-related: []
+  - integration-architecture
+  - quick-reference
+related:
+  - ../
 ---
 
 # Integration Architecture Quick Reference
 
 ## Plain-English Explanation
 
-[One to three sentences explaining Integration Architecture.]
+Integration Architecture defines how systems exchange data, events, requests, and responses reliably and securely.
+
+## Simple Analogy
+
+Think of it as the transportation network between business systems: roads, traffic rules, shipping routes, checkpoints, and delivery confirmations.
 
 ## Why It Matters
 
-- [Business value]
-- [Technical value]
-- [Governance value]
+- System Connectivity
+- Process Automation
+- Reduced Manual Rekeying
+- Faster Data Movement
+- Operational Reliability
+- Controlled Dependencies
 
-## Key Concepts
-
-| Concept | Meaning |
-|---|---|
-| [Concept] | [Meaning] |
-
-## Common Workflow
+## Common Flow
 
 ```text
-[Step 1] → [Step 2] → [Step 3] → [Step 4] → [Improvement]
+Producer System → Interface / API / File / Event → Validation → Transformation → Consumer System → Logging → Error Handling
 ```
 
-## Best-Practice Reminders
+## Core Concepts
 
-- [Reminder]
-- [Reminder]
-- [Reminder]
+| Concept | Simple Explanation | Why It Matters | Example |
+|---|---|---|---|
+| API | A controlled interface for systems to exchange information. | Supports reliable system-to-system communication. | Policy lookup API used by an automation. |
+| Batch Integration | Data exchanged on a schedule. | Useful for large or non-real-time workloads. | Nightly file feed from source system to lakehouse. |
+| Event-Driven Integration | Systems react when something happens. | Improves timeliness and decoupling. | Policy updated event triggers downstream processing. |
+| Message Queue | A buffer for reliable asynchronous processing. | Protects systems from spikes and failures. | Queue for automation work items. |
+| Data Contract | Agreement about expected data structure and behavior. | Prevents breaking downstream consumers. | Required columns, types, allowed values. |
+| Error Handling | How failed integration messages are retried, logged, or escalated. | Prevents silent failures. | Dead-letter queue, retry policy, alerting. |
 
 ## Red Flags
 
-- [Red flag]
-- [Red flag]
-- [Red flag]
+- No clear owner.
+- Current state is not understood.
+- Target state is vague.
+- Dependencies are undocumented.
+- Governance is added too late.
+- Security is treated as an afterthought.
+- Monitoring and support are missing.
+- Decisions are not documented.
+- The solution solves a tool problem but not a business problem.
 
-## Troubleshooting Questions
+## Questions to Ask
 
-1. What changed recently?
-2. What is the expected behavior?
-3. Where does the actual behavior differ?
-4. What systems, data, or people are involved?
-5. Who owns the issue?
-6. What evidence do we have?
+1. What business outcome does this support?
+2. Who owns the process, data, and system?
+3. What is the current state?
+4. What target state are we moving toward?
+5. What risks and constraints exist?
+6. What standards apply?
+7. How will failure be handled?
+8. How will success be measured?
 
-## Beginner-to-Pro Notes
+## Meeting Soundbite
+
+> Integration Architecture helps us connect the business need to a practical, governed, and supportable approach so we avoid isolated decisions, hidden risk, and unnecessary technical debt.
+
+## Beginner-to-Pro Focus
 
 | Level | Focus |
 |---|---|
-| Beginner | Understand the basic idea and vocabulary. |
-| Advanced Beginner | Follow common workflows and explain the subject simply. |
-| Intermediate Practitioner | Apply the subject in a real project or business process. |
-| Advanced Practitioner | Handle edge cases, risks, quality, scale, and reliability. |
-| Enterprise Professional | Govern, monitor, document, and improve the subject across teams. |
-| Architect / Strategic Lead | Define strategy, standards, roadmaps, and reusable patterns. |
+| Beginner | Understand the basic purpose and vocabulary. |
+| Advanced Beginner | Identify common flows, stakeholders, inputs, and outputs. |
+| Intermediate Practitioner | Apply the concept to a real work scenario. |
+| Advanced Practitioner | Design for scale, quality, reliability, and supportability. |
+| Enterprise Professional | Connect the subject to governance, standards, and operating model. |
+| Architect / Strategic Lead | Shape roadmap, strategy, reusable patterns, and cross-team decisions. |

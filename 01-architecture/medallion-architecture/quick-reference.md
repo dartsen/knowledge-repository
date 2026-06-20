@@ -2,66 +2,86 @@
 title: "Medallion Architecture Quick Reference"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - medallion
   - architecture
-related: []
+  - medallion-architecture
+  - quick-reference
+related:
+  - ../
 ---
 
 # Medallion Architecture Quick Reference
 
 ## Plain-English Explanation
 
-[One to three sentences explaining Medallion Architecture.]
+Medallion Architecture is a layered data design pattern that organizes data into progressively refined layers, commonly raw, conformed, and curated.
+
+## Simple Analogy
+
+Think of it as refining raw materials. Bronze captures what arrived, silver cleans and standardizes it, and gold packages it for specific business use.
 
 ## Why It Matters
 
-- [Business value]
-- [Technical value]
-- [Governance value]
+- Data Trust
+- Reusable Transformations
+- Clear Ownership
+- Better Lineage
+- Automation-Ready Data
+- Scalable Analytics
 
-## Key Concepts
-
-| Concept | Meaning |
-|---|---|
-| [Concept] | [Meaning] |
-
-## Common Workflow
+## Common Flow
 
 ```text
-[Step 1] → [Step 2] → [Step 3] → [Step 4] → [Improvement]
+Source Systems → Raw / Bronze → Conformed / Silver → Curated / Gold → BI / Automation / AI → Monitoring
 ```
 
-## Best-Practice Reminders
+## Core Concepts
 
-- [Reminder]
-- [Reminder]
-- [Reminder]
+| Concept | Simple Explanation | Why It Matters | Example |
+|---|---|---|---|
+| Raw / Bronze Layer | Data captured close to the source format. | Preserves source history and auditability. | Raw policy table from source extract. |
+| Conformed / Silver Layer | Cleaned, standardized, reusable business-aligned data. | Supports shared use across teams. | Standardized policy, customer, coverage models. |
+| Curated / Gold Layer | Use-case-ready data optimized for consumption. | Makes reports and automations easier to build. | Automation-ready policy renewal table. |
+| Data Quality Gates | Checks between layers. | Prevents bad data from flowing downstream unnoticed. | Unique keys, valid dates, accepted status values. |
+| Lineage | Traceability from source to curated output. | Supports trust and impact analysis. | Source policy → conformed policy → curated renewal attributes. |
+| Consumption Pattern | How downstream tools access the data. | Shapes design and performance. | Power BI import, SQL lookup, API, automation query. |
 
 ## Red Flags
 
-- [Red flag]
-- [Red flag]
-- [Red flag]
+- No clear owner.
+- Current state is not understood.
+- Target state is vague.
+- Dependencies are undocumented.
+- Governance is added too late.
+- Security is treated as an afterthought.
+- Monitoring and support are missing.
+- Decisions are not documented.
+- The solution solves a tool problem but not a business problem.
 
-## Troubleshooting Questions
+## Questions to Ask
 
-1. What changed recently?
-2. What is the expected behavior?
-3. Where does the actual behavior differ?
-4. What systems, data, or people are involved?
-5. Who owns the issue?
-6. What evidence do we have?
+1. What business outcome does this support?
+2. Who owns the process, data, and system?
+3. What is the current state?
+4. What target state are we moving toward?
+5. What risks and constraints exist?
+6. What standards apply?
+7. How will failure be handled?
+8. How will success be measured?
 
-## Beginner-to-Pro Notes
+## Meeting Soundbite
+
+> Medallion Architecture helps us connect the business need to a practical, governed, and supportable approach so we avoid isolated decisions, hidden risk, and unnecessary technical debt.
+
+## Beginner-to-Pro Focus
 
 | Level | Focus |
 |---|---|
-| Beginner | Understand the basic idea and vocabulary. |
-| Advanced Beginner | Follow common workflows and explain the subject simply. |
-| Intermediate Practitioner | Apply the subject in a real project or business process. |
-| Advanced Practitioner | Handle edge cases, risks, quality, scale, and reliability. |
-| Enterprise Professional | Govern, monitor, document, and improve the subject across teams. |
-| Architect / Strategic Lead | Define strategy, standards, roadmaps, and reusable patterns. |
+| Beginner | Understand the basic purpose and vocabulary. |
+| Advanced Beginner | Identify common flows, stakeholders, inputs, and outputs. |
+| Intermediate Practitioner | Apply the concept to a real work scenario. |
+| Advanced Practitioner | Design for scale, quality, reliability, and supportability. |
+| Enterprise Professional | Connect the subject to governance, standards, and operating model. |
+| Architect / Strategic Lead | Shape roadmap, strategy, reusable patterns, and cross-team decisions. |

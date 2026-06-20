@@ -2,44 +2,56 @@
 title: "Medallion Architecture Common Frameworks"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - medallion
   - architecture
-related: []
+  - medallion-architecture
+  - frameworks
+related:
+  - ../
 ---
 
 # Medallion Architecture Common Frameworks, Models, and Patterns
 
 ## Purpose
 
-Use this file to capture frameworks, models, methodologies, and reusable patterns related to Medallion Architecture.
+Use this file to capture frameworks, models, and reusable patterns that support Medallion Architecture.
 
 ## Frameworks and Patterns
 
-| Name | What It Is | When to Use It | Benefits | Limitations | Example |
-|---|---|---|---|---|---|
-| [Framework / Pattern] | [Description] | [Use case] | [Benefits] | [Limitations] | [Example] |
+| Framework / Pattern | What It Is | When to Use It | Benefit | Watchout |
+|---|---|---|---|---|
+| Bronze-Silver-Gold | A commonly used method, model, or reusable approach related to Medallion Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Can become unclear without ownership and standards. |
+| Data Quality Gates | A commonly used method, model, or reusable approach related to Medallion Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Must be measurable and automated where possible. |
+| Dimensional Modeling | A commonly used method, model, or reusable approach related to Medallion Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Requires careful grain and business definition. |
+| Data Product Thinking | A commonly used method, model, or reusable approach related to Medallion Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Requires product ownership and service mindset. |
+| Data Contracts | A commonly used method, model, or reusable approach related to Medallion Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Requires producer and consumer agreement. |
+| Data Observability | A commonly used method, model, or reusable approach related to Medallion Architecture. | Use when the problem matches the framework's intended context. | Improves consistency and decision quality. | Can be noisy without clear SLAs. |
 
-## Decision Criteria
+## How to Choose a Framework
 
-When choosing a framework or pattern, ask:
+Ask:
 
-1. What problem are we trying to solve?
-2. Is the pattern appropriate for the scale and risk?
-3. Does the team have the skills to apply it?
-4. Is it too heavy or too light?
-5. Does it support governance and maintainability?
-6. Can it be reused?
+1. What problem are we solving?
+2. Is this a strategy, design, governance, delivery, or support problem?
+3. Is the framework too heavy for the context?
+4. Does the team understand how to use it?
+5. Will it improve decision-making?
+6. Will it improve delivery?
+7. Will it improve governance or supportability?
+
+## Practical Rule
+
+Use frameworks as guides. Do not let the framework become the work.
 
 ## Beginner-to-Pro Framework Growth
 
-| Level | Framework Capability |
+| Level | Capability |
 |---|---|
-| Beginner | Recognize common frameworks by name. |
-| Advanced Beginner | Understand when a framework might be useful. |
-| Intermediate Practitioner | Apply a framework to a real scenario. |
-| Advanced Practitioner | Adapt frameworks to context. |
+| Beginner | Recognize the framework names. |
+| Advanced Beginner | Understand when they are useful. |
+| Intermediate Practitioner | Apply one framework to a small scenario. |
+| Advanced Practitioner | Adapt frameworks to real constraints. |
 | Enterprise Professional | Standardize patterns across teams. |
-| Architect / Strategic Lead | Select and govern frameworks at enterprise scale. |
+| Architect / Strategic Lead | Select and govern frameworks at portfolio level. |

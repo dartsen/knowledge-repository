@@ -2,12 +2,14 @@
 title: "Solution Architecture Governance Checklist"
 domain: "Architecture"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Phase 2 Draft"
 last_updated: "2026-06-20"
 tags:
-  - solution
   - architecture
-related: []
+  - solution-architecture
+  - governance
+related:
+  - ../
 ---
 
 # Solution Architecture Governance Checklist
@@ -16,7 +18,7 @@ related: []
 
 - [ ] Business owner identified
 - [ ] Technical owner identified
-- [ ] Data owner identified, if applicable
+- [ ] Data owner identified where applicable
 - [ ] Support owner identified
 - [ ] Escalation path documented
 
@@ -31,48 +33,48 @@ related: []
 ## Change Management
 
 - [ ] Change impact assessed
+- [ ] Stakeholders informed
 - [ ] Testing evidence captured
 - [ ] Release plan documented
 - [ ] Rollback or fallback plan documented
-- [ ] Stakeholders informed
+- [ ] Documentation update included in delivery
 
 ## Auditability
 
 - [ ] Decision records available
-- [ ] Logs available
-- [ ] Approval trail available
-- [ ] Documentation stored in approved location
 - [ ] Version history available
-
-## Data Sensitivity
-
-- [ ] Data classification reviewed
-- [ ] PII or confidential data identified
-- [ ] Retention requirements considered
-- [ ] Downstream usage documented
+- [ ] Approval trail available
+- [ ] Logs available where applicable
+- [ ] Data lineage available where applicable
+- [ ] Test evidence stored
 
 ## Operational Readiness
 
 - [ ] Monitoring defined
-- [ ] Alerts defined
-- [ ] Runbook available
+- [ ] Alerts configured
+- [ ] Runbook created
 - [ ] Support model defined
 - [ ] Incident process documented
+- [ ] Known failure modes documented
+
+## Architecture Review
+
+- [ ] Business problem is clear
+- [ ] Current state is documented
+- [ ] Target state is documented
+- [ ] Options were considered
+- [ ] Recommendation includes tradeoffs
+- [ ] Risks and assumptions are documented
+- [ ] Standards and exceptions are identified
 
 ## Continuous Improvement
 
 - [ ] Metrics defined
 - [ ] Feedback loop defined
 - [ ] Technical debt tracked
+- [ ] Lessons learned captured
 - [ ] Review cadence established
 
-## Beginner-to-Pro Governance Growth
+## Governance Principle
 
-| Level | Governance Capability |
-|---|---|
-| Beginner | Understand why ownership and controls matter. |
-| Advanced Beginner | Follow basic review checklists. |
-| Intermediate Practitioner | Apply governance to real work. |
-| Advanced Practitioner | Balance control, speed, risk, and usability. |
-| Enterprise Professional | Define operating models and review gates. |
-| Architect / Strategic Lead | Shape governance strategy and enterprise standards. |
+Governance should not exist to slow delivery. It should exist to make delivery safer, clearer, more consistent, and easier to support.
