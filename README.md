@@ -1,4 +1,4 @@
-# Git Knowledge Repository
+# Knowledge Repository
 
 This repository is a structured personal knowledge base for technology, data, AI, analytics, automation, software engineering, architecture, governance, and business context.
 
