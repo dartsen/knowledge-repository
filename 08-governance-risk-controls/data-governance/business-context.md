@@ -1,64 +1,48 @@
 ---
 title: "Data Governance Business Context"
-domain: "Governance Risk and Controls"
+domain: "Governance, Risk, and Controls"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Expanded Draft"
 last_updated: "2026-06-20"
 tags:
-  - data
-  - governance
-related: []
+  - governance-risk-and-controls
+  - data-governance
+  - business-context
+related:
+  - ../
 ---
 
 # Data Governance Business Context
 
 ## Business Purpose
 
-[Explain why the business should care about Data Governance.]
+Data Governance should connect to measurable business value.
 
-## Business Value
+## Value Areas
 
-| Value Area | How Data Governance Can Help |
-|---|---|
-| Efficiency | [Explanation] |
-| Cost Reduction | [Explanation] |
-| Risk Reduction | [Explanation] |
-| Quality | [Explanation] |
-| Scalability | [Explanation] |
-| Decision-Making | [Explanation] |
-| Governance | [Explanation] |
+- Efficiency
+- Quality
+- Risk reduction
+- Cost control
+- Better decisions
+- Compliance
+- Scalability
+- Adoption
 
 ## Stakeholders
 
-- Business owner:
-- Technical owner:
-- Data owner:
-- Operations owner:
-- Governance / risk partner:
-- End users:
-
-## Common Business Questions
-
-1. What problem are we solving?
-2. What value does this create?
-3. What process does this improve?
-4. What risk does this reduce?
-5. What happens if we do nothing?
-6. How will success be measured?
+- Business owner
+- Technical owner
+- End users
+- Governance partner
+- Support owner
 
 ## Metrics
 
-| Metric | Definition | Why It Matters |
-|---|---|---|
-| [Metric] | [Definition] | [Importance] |
-
-## Beginner-to-Pro Business Growth
-
-| Level | Business Skill |
+| Metric | Why It Matters |
 |---|---|
-| Beginner | Explain why the subject matters. |
-| Advanced Beginner | Connect the subject to a business process. |
-| Intermediate Practitioner | Identify business value and risks. |
-| Advanced Practitioner | Define measures and tradeoffs. |
-| Enterprise Professional | Align with strategy, governance, and operating model. |
-| Architect / Strategic Lead | Shape investment decisions and roadmaps. |
+| Adoption | Shows whether users value it. |
+| Defects | Shows quality. |
+| Time saved | Shows efficiency. |
+| Incidents | Shows reliability. |
+| Control exceptions | Shows risk. |
