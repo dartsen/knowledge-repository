@@ -1,34 +1,75 @@
-# Knowledge Repository
+---
+title: "Git Knowledge Repository - Phase 2 Architecture"
+domain: "Architecture"
+level: "Beginner to Pro"
+status: "Phase 2 Package"
+last_updated: "2026-06-20"
+tags:
+  - knowledge-repository
+  - architecture
+  - phase-2
+related:
+  - ../
+---
 
-This repository is a structured personal knowledge base for technology, data, AI, analytics, automation, software engineering, architecture, governance, and business context.
+# Git Knowledge Repository - Phase 2 Architecture
 
-The goal is to make complex subjects easy to learn, explain, apply, troubleshoot, govern, and improve over time.
+This package expands the **Architecture** domain of the Git knowledge repository.
 
-## Learning Method
+It includes full beginner-to-pro Markdown guides for:
 
-Each subject follows a **beginner-to-pro progression**:
+- Enterprise Architecture
+- Solution Architecture
+- Data Architecture
+- Integration Architecture
+- Medallion Architecture
+- Reference Patterns
 
-1. Beginner
-2. Advanced Beginner
-3. Intermediate Practitioner
-4. Advanced Practitioner
-5. Enterprise Professional
-6. Architect / Strategic Lead
+## Contents
 
-## Main Domains
+```text
+01-architecture/
+  enterprise-architecture/
+  solution-architecture/
+  data-architecture/
+  integration-architecture/
+  medallion-architecture/
+  reference-patterns/
+99-templates/
+```
 
-| Folder | Domain |
-|---|---|
-| `01-architecture/` | Architecture |
-| `02-data-engineering/` | Data Engineering |
-| `03-analytics-bi/` | Analytics and BI |
-| `04-ai-machine-learning/` | AI and Machine Learning |
-| `05-automation/` | Automation |
-| `06-software-engineering/` | Software Engineering |
-| `07-cloud-devops/` | Cloud and DevOps |
-| `08-governance-risk-controls/` | Governance, Risk, and Controls |
-| `09-business-context/` | Business Context |
-| `10-quick-reference-sheets/` | Quick Reference Sheets |
-| `99-templates/` | Reusable Templates |
+## Intended Use
 
-Generated: 2026-06-20
+Unzip this package into your Git knowledge repository. It can either replace the starter architecture placeholders from Phase 1 or be used as a more complete Phase 2 expansion.
+
+## Phase 2 Standard
+
+Each topic includes:
+
+- README
+- Full reference guide
+- Quick reference
+- Architecture overview
+- Business context
+- Best practices
+- Troubleshooting guide
+- Governance checklist
+- Common frameworks
+- Learning path
+- Practical example scenario
+
+## Next Suggested Phase
+
+After reviewing this Architecture domain, the next recommended Phase 2 expansion is:
+
+```text
+02-data-engineering/
+  databricks/
+  dbt/
+  data-modeling/
+  data-quality/
+  data-lineage/
+  orchestration/
+  unity-catalog/
+  sql/
+```
