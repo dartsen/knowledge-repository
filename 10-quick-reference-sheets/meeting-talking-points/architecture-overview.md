@@ -2,83 +2,54 @@
 title: "Meeting Talking Points Architecture Overview"
 domain: "Quick Reference Sheets"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Expanded Draft"
 last_updated: "2026-06-20"
 tags:
-  - meeting
-  - talking
-  - points
-related: []
+  - quick-reference-sheets
+  - meeting-talking-points
+  - architecture-overview
+related:
+  - ../
 ---
 
 # Meeting Talking Points Architecture Overview
 
 ## Purpose
 
-[Explain how Meeting Talking Points fits into the broader enterprise architecture.]
+Show how Meeting Talking Points fits into broader enterprise architecture.
 
-## Architecture Layers to Consider
-
-- Business capability
-- Business process
-- Data
-- Application
-- Integration
-- Technology
-- Security
-- Governance
-- Operations
-- Monitoring
-
-## Context Diagram
+## Context
 
 ```text
 Business Need
   → Meeting Talking Points
-  → Supporting Systems / Data / Processes
-  → Consumers / Users / Automation / Reporting
-  → Monitoring and Improvement
+  → Systems / Data / Process / People
+  → Governance
+  → Operations
+  → Improvement
 ```
 
-## Common Inputs
+## Inputs
 
-- [Input]
-- [Input]
+- Business need
+- Requirements
+- Current-state process
+- Systems or data dependencies
+- Governance requirements
 
-## Common Outputs
+## Outputs
 
-- [Output]
-- [Output]
+- Design
+- Standard
+- Checklist
+- Decision record
+- Runbook
+- Monitoring plan
 
-## Upstream Dependencies
+## Decision Points
 
-- [Dependency]
-
-## Downstream Consumers
-
-- [Consumer]
-
-## Architecture Decision Points
-
-| Decision | Options | Tradeoffs | Recommendation |
-|---|---|---|---|
-| [Decision] | [Options] | [Tradeoffs] | [Recommendation] |
-
-## Risks
-
-- [Risk]
-
-## Governance Considerations
-
-- [Governance item]
-
-## Beginner-to-Pro Architecture Growth
-
-| Level | Architecture Skill |
-|---|---|
-| Beginner | Recognize where this topic fits in a simple diagram. |
-| Advanced Beginner | Explain basic inputs, outputs, and dependencies. |
-| Intermediate Practitioner | Create a current-state and future-state view. |
-| Advanced Practitioner | Evaluate tradeoffs and design reusable patterns. |
-| Enterprise Professional | Align architecture with governance and operations. |
-| Architect / Strategic Lead | Define strategy, roadmaps, and enterprise standards. |
+| Decision | Options | Tradeoff |
+|---|---|---|
+| Ownership | Central, domain, shared | Balance control and context. |
+| Governance | Light, moderate, strict | Balance speed and risk. |
+| Delivery | Manual, automated, hybrid | Balance effort and reliability. |

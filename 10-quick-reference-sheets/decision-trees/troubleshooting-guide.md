@@ -2,73 +2,35 @@
 title: "Decision Trees Troubleshooting Guide"
 domain: "Quick Reference Sheets"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Expanded Draft"
 last_updated: "2026-06-20"
 tags:
-  - decision
-  - trees
-related: []
+  - quick-reference-sheets
+  - decision-trees
+  - troubleshooting-guide
+related:
+  - ../
 ---
 
 # Decision Trees Troubleshooting Guide
 
-## Troubleshooting Mindset
+## Investigation Flow
 
-When something goes wrong with Decision Trees, investigate systematically:
-
-1. What changed recently?
-2. What is the expected outcome?
-3. What is actually happening?
-4. What systems, data, people, or processes are involved?
-5. Where is the failure occurring?
-6. Who owns the failed component?
-7. What evidence do we have?
-8. What temporary workaround exists?
-9. What permanent fix is needed?
-10. How do we prevent recurrence?
+```text
+Symptom
+  → Impact
+  → Recent Change
+  → Evidence
+  → Root Cause
+  → Resolution
+  → Prevention
+```
 
 ## Common Issues
 
-| Issue | Likely Cause | Investigation Steps | Resolution | Prevention |
+| Issue | Likely Cause | Investigation | Resolution | Prevention |
 |---|---|---|---|---|
-| [Issue] | [Cause] | [Steps] | [Resolution] | [Prevention] |
-
-## Evidence to Collect
-
-- Logs
-- Screenshots
-- Error messages
-- Run history
-- Data samples
-- Configuration changes
-- Recent releases
-- User reports
-- Monitoring alerts
-- Access records
-
-## Escalation
-
-| Situation | Escalate To | Information to Provide |
-|---|---|---|
-| [Situation] | [Team / Owner] | [Details] |
-
-## Post-Incident Review
-
-- What failed?
-- Why did it fail?
-- What was the impact?
-- How was it detected?
-- How was it resolved?
-- What should change?
-- Who owns the preventive action?
-
-## Beginner-to-Pro Troubleshooting Growth
-
-| Level | Troubleshooting Capability |
-|---|---|
-| Beginner | Follow simple checklists. |
-| Advanced Beginner | Identify common failure patterns. |
-| Intermediate Practitioner | Diagnose issues using evidence. |
-| Advanced Practitioner | Find root causes across systems and processes. |
-| Enterprise Professional | Improve monitoring, ownership, and prevention. |
-| Architect / Strategic Lead | Redesign patterns to reduce recurring failures. |
+| Unexpected output | Requirement or rule mismatch | Compare expected vs actual | Correct logic or definition | Document rules |
+| Failure | Dependency, access, or runtime issue | Review logs and changes | Fix root cause | Add monitoring |
+| Low adoption | Poor fit or unclear value | Gather feedback | Adjust design | Validate early |
+| Governance gap | Missing owner or approval | Review controls | Assign owner | Add checklist |
