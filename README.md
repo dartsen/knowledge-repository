@@ -1,75 +1,43 @@
 ---
-title: "Git Knowledge Repository - Phase 2 Architecture"
-domain: "Architecture"
+title: "Governance, Risk, and Controls"
+domain: "Governance, Risk, and Controls"
 level: "Beginner to Pro"
-status: "Phase 2 Package"
+status: "Phase 4 Expanded"
 last_updated: "2026-06-20"
 tags:
-  - knowledge-repository
-  - architecture
-  - phase-2
+  - 08-governance-risk-controls
+  - expanded
 related:
   - ../
 ---
 
-# Git Knowledge Repository - Phase 2 Architecture
+# Governance, Risk, and Controls
 
-This package expands the **Architecture** domain of the Git knowledge repository.
+This folder contains expanded beginner-to-pro guides for the **Governance, Risk, and Controls** domain.
 
-It includes full beginner-to-pro Markdown guides for:
+## Topics
 
-- Enterprise Architecture
-- Solution Architecture
-- Data Architecture
-- Integration Architecture
-- Medallion Architecture
-- Reference Patterns
+| Topic | Purpose |
+|---|---|
+| [Data Governance](./data-governance/README.md) | Data Governance defines ownership, quality, definitions, access, lineage, lifecycle, and accountability for data assets. |
+| [AI Governance](./ai-governance/README.md) | AI Governance defines how AI systems and AI-assisted work are approved, monitored, controlled, documented, and reviewed. |
+| [Security](./security/README.md) | Security protects systems, identities, data, applications, and processes from unauthorized access, misuse, loss, or compromise. |
+| [Auditability](./auditability/README.md) | Auditability is the ability to prove what happened, who approved it, what changed, what controls exist, and how evidence can be reviewed. |
+| [Change Management](./change-management/README.md) | Change Management controls how changes are assessed, approved, tested, deployed, communicated, and reviewed. |
+| [Compliance](./compliance/README.md) | Compliance is the practice of meeting legal, regulatory, contractual, internal policy, and audit obligations. |
+| [Operational Risk](./operational-risk/README.md) | Operational Risk is the risk of loss, disruption, error, or failure caused by people, process, systems, data, or external events. |
 
-## Contents
+## Domain-Level Use
 
-```text
-01-architecture/
-  enterprise-architecture/
-  solution-architecture/
-  data-architecture/
-  integration-architecture/
-  medallion-architecture/
-  reference-patterns/
-99-templates/
-```
+Use this domain to learn, apply, govern, troubleshoot, and improve work related to Governance, Risk, and Controls.
 
-## Intended Use
-
-Unzip this package into your Git knowledge repository. It can either replace the starter architecture placeholders from Phase 1 or be used as a more complete Phase 2 expansion.
-
-## Phase 2 Standard
-
-Each topic includes:
-
-- README
-- Full reference guide
-- Quick reference
-- Architecture overview
-- Business context
-- Best practices
-- Troubleshooting guide
-- Governance checklist
-- Common frameworks
-- Learning path
-- Practical example scenario
-
-## Next Suggested Phase
-
-After reviewing this Architecture domain, the next recommended Phase 2 expansion is:
+## Beginner-to-Pro Progression
 
 ```text
-02-data-engineering/
-  databricks/
-  dbt/
-  data-modeling/
-  data-quality/
-  data-lineage/
-  orchestration/
-  unity-catalog/
-  sql/
+Beginner
+  → Advanced Beginner
+  → Intermediate Practitioner
+  → Advanced Practitioner
+  → Enterprise Professional
+  → Architect / Strategic Lead
 ```
