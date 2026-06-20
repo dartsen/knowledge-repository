@@ -2,66 +2,55 @@
 title: "Power Automate Quick Reference"
 domain: "Automation"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Expanded Draft"
 last_updated: "2026-06-20"
 tags:
-  - power
-  - automate
-related: []
+  - automation
+  - power-automate
+  - quick-reference
+related:
+  - ../
 ---
 
 # Power Automate Quick Reference
 
 ## Plain-English Explanation
 
-[One to three sentences explaining Power Automate.]
+Power Automate is Microsoft’s workflow automation tool for cloud flows, desktop flows, approvals, integrations, and process automation.
 
-## Why It Matters
+## When to Use
 
-- [Business value]
-- [Technical value]
-- [Governance value]
+- When you need a fast explanation.
+- When preparing for a meeting.
+- When onboarding to the topic.
+- When troubleshooting or reviewing work.
 
-## Key Concepts
+## Core Questions
 
-| Concept | Meaning |
-|---|---|
-| [Concept] | [Meaning] |
-
-## Common Workflow
-
-```text
-[Step 1] → [Step 2] → [Step 3] → [Step 4] → [Improvement]
-```
-
-## Best-Practice Reminders
-
-- [Reminder]
-- [Reminder]
-- [Reminder]
+1. What problem does this solve?
+2. Who owns it?
+3. What are the inputs and outputs?
+4. What can go wrong?
+5. What controls apply?
+6. How is success measured?
 
 ## Red Flags
 
-- [Red flag]
-- [Red flag]
-- [Red flag]
-
-## Troubleshooting Questions
-
-1. What changed recently?
-2. What is the expected behavior?
-3. Where does the actual behavior differ?
-4. What systems, data, or people are involved?
-5. Who owns the issue?
-6. What evidence do we have?
+- No owner
+- No documentation
+- No quality checks
+- No support model
+- No governance
+- No monitoring
+- No examples
 
 ## Beginner-to-Pro Notes
 
 | Level | Focus |
 |---|---|
-| Beginner | Understand the basic idea and vocabulary. |
-| Advanced Beginner | Follow common workflows and explain the subject simply. |
-| Intermediate Practitioner | Apply the subject in a real project or business process. |
-| Advanced Practitioner | Handle edge cases, risks, quality, scale, and reliability. |
-| Enterprise Professional | Govern, monitor, document, and improve the subject across teams. |
-| Architect / Strategic Lead | Define strategy, standards, roadmaps, and reusable patterns. |
+| Beginner | Understand the basic idea. |
+| Advanced Beginner | Follow a simple workflow. |
+| Intermediate Practitioner | Apply it to real work. |
+| Advanced Practitioner | Handle risks and exceptions. |
+| Enterprise Professional | Govern and standardize. |
+| Architect / Strategic Lead | Define strategy and reusable patterns. |

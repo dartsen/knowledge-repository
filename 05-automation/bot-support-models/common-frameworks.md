@@ -2,45 +2,34 @@
 title: "Bot Support Models Common Frameworks"
 domain: "Automation"
 level: "Beginner to Pro"
-status: "Starter"
+status: "Expanded Draft"
 last_updated: "2026-06-20"
 tags:
-  - bot
-  - support
-  - models
-related: []
+  - automation
+  - bot-support-models
+  - common-frameworks
+related:
+  - ../
 ---
 
 # Bot Support Models Common Frameworks, Models, and Patterns
 
-## Purpose
-
-Use this file to capture frameworks, models, methodologies, and reusable patterns related to Bot Support Models.
-
 ## Frameworks and Patterns
 
-| Name | What It Is | When to Use It | Benefits | Limitations | Example |
-|---|---|---|---|---|---|
-| [Framework / Pattern] | [Description] | [Use case] | [Benefits] | [Limitations] | [Example] |
-
-## Decision Criteria
-
-When choosing a framework or pattern, ask:
-
-1. What problem are we trying to solve?
-2. Is the pattern appropriate for the scale and risk?
-3. Does the team have the skills to apply it?
-4. Is it too heavy or too light?
-5. Does it support governance and maintainability?
-6. Can it be reused?
-
-## Beginner-to-Pro Framework Growth
-
-| Level | Framework Capability |
+| Framework / Pattern | Notes |
 |---|---|
-| Beginner | Recognize common frameworks by name. |
-| Advanced Beginner | Understand when a framework might be useful. |
-| Intermediate Practitioner | Apply a framework to a real scenario. |
-| Advanced Practitioner | Adapt frameworks to context. |
-| Enterprise Professional | Standardize patterns across teams. |
-| Architect / Strategic Lead | Select and govern frameworks at enterprise scale. |
+| Robotic Enterprise Framework | Add organization-specific guidance, examples, and links. |
+| Power Platform CoE | Add organization-specific guidance, examples, and links. |
+| Exception Handling Pattern | Add organization-specific guidance, examples, and links. |
+| Queue-Based Processing | Add organization-specific guidance, examples, and links. |
+| Human-in-the-Loop | Add organization-specific guidance, examples, and links. |
+| Runbook Pattern | Add organization-specific guidance, examples, and links. |
+| Automation Operating Model | Add organization-specific guidance, examples, and links. |
+
+## Selection Questions
+
+1. Does the pattern fit the problem?
+2. Is it too heavy or too light?
+3. Who will own it?
+4. Can it be supported?
+5. How will it be improved?
