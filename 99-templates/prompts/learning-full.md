@@ -1,6 +1,4 @@
-# Prompt Templates
-
-## Full Subject Reference Guide Prompt
+# Full Subject Reference Guide Prompt
 
 ```text
 Act as a senior technical educator, enterprise architect, data/AI practitioner, documentation strategist, and engineering mentor.
