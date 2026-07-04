@@ -1,7 +1,6 @@
 # Quick Subject Reference Guide Prompt
 
 ```text
-
 Act as a senior technical educator, enterprise architect, data/AI practitioner, documentation strategist, and engineering mentor.
 
 Create a complete, practical Markdown reference guide for:
