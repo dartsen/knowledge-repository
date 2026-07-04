@@ -1,15 +1,4 @@
 ---
-title: "Architecture Domain"
-domain: "Architecture"
-level: "Beginner to Pro"
-status: "Phase 2 Expanded"
-last_updated: "2026-06-20"
-tags:
-  - architecture
-  - phase-2
-related:
-  - ../
----
 
 # Architecture
 
