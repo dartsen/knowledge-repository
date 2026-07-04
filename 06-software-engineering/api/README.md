@@ -1,7 +1,5 @@
 # APIs Reference Guide
 
-## Beginner-to-Pro Practical Mastery for Technical Professionals
-
 ---
 
 ## 1. Executive Summary
