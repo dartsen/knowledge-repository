@@ -30,5 +30,3 @@ Each subject follows a **beginner-to-pro progression**:
 | `09-business-context/` | Business Context |
 | `10-quick-reference-sheets/` | Quick Reference Sheets |
 | `99-templates/` | Reusable Templates |
-
-Generated: 2026-06-20
