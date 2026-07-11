@@ -372,8 +372,7 @@ Different connections.
 
 # Deployment Process
 
-```mermaid
-flowchart TD
+
 
 Export Solution
 
