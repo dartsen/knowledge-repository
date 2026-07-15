@@ -1,17 +1,3 @@
----
-title: "Process Design Reference Guide"
-domain: "Automation"
-level: "Beginner to Pro"
-status: "Expanded Draft"
-last_updated: "2026-06-20"
-tags:
-  - automation
-  - process-design
-  - reference-guide
-related:
-  - ../
----
-
 # Process Design Reference Guide
 
 ## 00. Executive Summary
@@ -357,29 +343,3 @@ Define outcome
 | Advanced Practitioner | Risk, scale, exceptions, and support. | Failure modes and governance needs. | Troubleshooting guide or runbook. | Ignoring operations. | Design exception handling. | You can support production use. |
 | Enterprise Professional | Ownership, standards, monitoring, and adoption. | Enterprise value and operating model. | Standard or roadmap. | Ignoring politics and constraints. | Create a governance checklist. | You can influence multiple teams. |
 | Architect / Strategic Lead | Strategy, patterns, and long-term maturity. | How it supports transformation. | Reference architecture or strategy note. | Becoming too theoretical. | Lead a review or teach-back. | You can mentor others. |
-
-## 19. Repository Placement
-
-Suggested path:
-
-```text
-process-design/reference-guide.md
-```
-
-Related topics:
-
-- Architecture
-- Data Engineering
-- Analytics and BI
-- Automation
-- Governance
-- Business Context
-
-## 20. Reusable Templates
-
-- Checklist
-- Design note
-- Troubleshooting matrix
-- Governance checklist
-- Meeting notes
-- Decision record
