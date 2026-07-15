@@ -1,17 +1,3 @@
----
-title: "dbt Reference Guide"
-domain: "Data Engineering"
-level: "Beginner to Pro"
-status: "Phase 3 Draft"
-last_updated: "2026-06-20"
-tags:
-  - data-engineering
-  - dbt
-  - phase-3
-related:
-  - ../
----
-
 # dbt Reference Guide
 
 ## 00. Executive Summary
@@ -524,40 +510,3 @@ Source
 | Enterprise Professional | Governance, lineage, SLAs, and cross-team standards. | Enterprise value and operating model. | A governed data product or roadmap. | Ignoring organizational constraints. | Create a domain standard. | You can influence multiple teams. |
 | Architect / Strategic Lead | Strategy, platform patterns, and investment decisions. | How this supports transformation. | A reference architecture or strategy brief. | Becoming too theoretical. | Lead a design review. | You can guide standards and mentor others. |
 
-## 19. Repository Placement
-
-Suggested path:
-
-```text
-02-data-engineering/dbt/reference-guide.md
-```
-
-Related topics:
-
-- `01-architecture/data-architecture/`
-- `01-architecture/medallion-architecture/`
-- `02-data-engineering/data-quality/`
-- `02-data-engineering/data-lineage/`
-- `02-data-engineering/orchestration/`
-- `03-analytics-bi/power-bi/`
-- `05-automation/intelligent-automation/`
-- `08-governance-risk-controls/data-governance/`
-
-## 20. Reusable Templates
-
-See the local files in this folder:
-
-- `quick-reference.md`
-- `architecture-overview.md`
-- `business-context.md`
-- `best-practices.md`
-- `troubleshooting-guide.md`
-- `governance-checklist.md`
-- `common-frameworks.md`
-- `learning-path.md`
-
-Also see the package-level files in:
-
-```text
-99-templates/
-```
