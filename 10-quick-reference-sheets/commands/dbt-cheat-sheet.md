@@ -1,20 +1,3 @@
----
-title: dbt Cheat Sheet
-domain: Quick Reference Sheets
-level: Beginner to Pro
-status: Active
-last_updated: 2026-07-03
-tags:
-  - quick-reference-sheets
-  - commands
-  - dbt
-  - data-engineering
-  - analytics-engineering
-related:
-  - ../
-  - ../../../02-data-engineering/dbt/
----
-
 # dbt (data build tool) Cheat Sheet
 
 > Quick reference for dbt Core: project structure, the CLI, materializations, Jinja, tests, sources, and the typical build flow.
