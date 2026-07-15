@@ -1,19 +1,3 @@
----
-title: WDL Expressions Cheat Sheet
-domain: Quick Reference Sheets
-level: Beginner to Pro
-status: Active
-last_updated: 2026-07-03
-tags:
-  - quick-reference-sheets
-  - commands
-  - wdl
-  - workflow
-  - bioinformatics
-related:
-  - ../
----
-
 # WDL (Workflow Description Language) Expressions Cheat Sheet
 
 > Quick reference for WDL syntax and expressions: workflow/task structure, types, string interpolation, standard-library functions, scatter/gather, and conditionals. Aligned with WDL 1.0+.
