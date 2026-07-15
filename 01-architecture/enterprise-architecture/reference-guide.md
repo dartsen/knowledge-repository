@@ -1,19 +1,3 @@
----
-title: "Enterprise Architecture Reference Guide"
-domain: "Architecture"
-level: "Beginner to Pro"
-status: "Phase 2 Draft"
-last_updated: "2026-06-20"
-tags:
-  - architecture
-  - enterprise-architecture
-  - strategic-alignment
-  - cost-control
-  - risk-reduction
-related:
-  - ../
----
-
 # Enterprise Architecture Reference Guide
 
 ## 00. Executive Summary
@@ -568,41 +552,3 @@ Business Need
 | Enterprise Professional | Cross-team ownership, standards, roadmaps, and governance. | How Enterprise Architecture supports enterprise outcomes. | A roadmap, standard, or operating model. | Ignoring organizational constraints. | Create a domain roadmap. | You can influence multiple teams. |
 | Architect / Strategic Lead | Strategy alignment, portfolio impact, and decision leadership. | How architecture shapes long-term business capability. | An enterprise pattern, strategy, or governance model. | Becoming theoretical and disconnected from delivery. | Lead an architecture review. | You can guide decisions and mentor others. |
 
-## 19. Repository Placement
-
-Suggested path:
-
-```text
-01-architecture/enterprise-architecture/reference-guide.md
-```
-
-Related topics:
-
-- `01-architecture/enterprise-architecture/`
-- `01-architecture/solution-architecture/`
-- `01-architecture/data-architecture/`
-- `01-architecture/integration-architecture/`
-- `01-architecture/medallion-architecture/`
-- `01-architecture/reference-patterns/`
-- `08-governance-risk-controls/change-management/`
-- `08-governance-risk-controls/data-governance/`
-- `06-software-engineering/azure-devops/`
-
-## 20. Reusable Templates
-
-See the local files in this folder:
-
-- `quick-reference.md`
-- `architecture-overview.md`
-- `business-context.md`
-- `best-practices.md`
-- `troubleshooting-guide.md`
-- `governance-checklist.md`
-- `common-frameworks.md`
-- `learning-path.md`
-
-Also see:
-
-```text
-99-templates/
-```
