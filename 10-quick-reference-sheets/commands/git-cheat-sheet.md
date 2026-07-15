@@ -1,18 +1,3 @@
----
-title: Git Commands Cheat Sheet
-domain: Quick Reference Sheets
-level: Beginner to Pro
-status: Active
-last_updated: 2026-07-03
-tags:
-  - quick-reference-sheets
-  - commands
-  - git
-  - version-control
-related:
-  - ../
----
-
 # Git Commands Cheat Sheet
 
 > A practical, categorized quick reference for everyday Git. Covers setup, the core add/commit/push loop, branching, merging vs rebasing, inspecting history, undoing mistakes, and remote collaboration.
