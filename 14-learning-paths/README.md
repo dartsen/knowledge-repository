@@ -35,6 +35,8 @@ Choose a domain path when learning a discipline. Choose a cross-domain path when
 - [Integration Engineering](enterprise-architecture/integration-architecture.md)
 - [Reliability Engineering and Observability](devops/reliability-observability.md)
 - [Platform Engineering](devops/platform-engineering.md)
+- [Microsoft Fabric](data-engineering/microsoft-fabric.md)
+- [Power Platform](automation/power-platform.md)
 
 ## Production Engineering Paths
 

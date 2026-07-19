@@ -63,6 +63,8 @@ Use [Project Delivery](11-project-delivery/README.md) for discovery, architectur
 
 Start with [Data Engineering](03-data-engineering/README.md), then choose the relevant platform, modeling, quality, orchestration, lineage, and operations material.
 
+For an end-to-end Microsoft SaaS analytics platform, use the [Microsoft Fabric guide](03-data-engineering/microsoft-fabric/README.md) and its [centralized learning path](14-learning-paths/data-engineering/microsoft-fabric.md).
+
 ## I Need to Review a Solution
 
 Use the architecture and operational-readiness checklists in [Project Delivery](11-project-delivery/README.md), then apply the relevant domain governance requirements.

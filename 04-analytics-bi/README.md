@@ -58,3 +58,4 @@ Business question → Metric definition → Data model → Semantic model
 - [Data Engineering](../03-data-engineering/README.md)
 - [Business Domain](../10-business-domain/README.md)
 - [Project Delivery](../11-project-delivery/README.md)
+- [Microsoft Fabric data platform guidance](../03-data-engineering/microsoft-fabric/README.md)

@@ -46,6 +46,14 @@ Learn data flow, grain, modeling, and quality before choosing platform-specific 
 - Compare Databricks, dbt, and Microsoft Fabric patterns.
 - Diagnose late, incomplete, duplicated, or incorrect data.
 
+## Canonical Platform Guides
+
+- [Microsoft Fabric](microsoft-fabric/README.md)
+- [Databricks](databricks/README.md)
+- [dbt](dbt/README.md)
+- [Data Quality](data-quality/README.md)
+- [Data Lineage](data-lineage/README.md)
+
 ## Learning Sequence
 
 ```text

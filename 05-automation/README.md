@@ -47,6 +47,14 @@ Start with process design and automation suitability. Choose Power Platform, UiP
 - Establish deployment, monitoring, support, and governance controls.
 - Review an automation for production readiness.
 
+## Canonical Platform Guides
+
+- [Power Platform](power-platform/README.md)
+- [Power Automate engineering library](power-platform/power-automate/README.md)
+- [UiPath](uipath/README.md)
+- [Automation Monitoring](automation-monitoring/README.md)
+- [Exception Handling](exception-handling/README.md)
+
 ## Learning Sequence
 
 ```text

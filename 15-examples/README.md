@@ -38,6 +38,8 @@ Generic generated examples awaiting review belong in `95-review-required/`, not 
 - [Reliable and Observable Order API](devops/reliable-order-api.md)
 - [Resilient Partner Claims Integration](enterprise-architecture/resilient-partner-integration.md)
 - [Self-Service Web Service Platform](devops/self-service-web-service-platform.md)
+- [Governed Microsoft Fabric Sales Lakehouse](data-engineering/fabric-sales-lakehouse.md)
+- [Power Platform Employee Onboarding Solution](automation/power-platform/employee-onboarding-solution.md)
 
 ## Active Examples
 
