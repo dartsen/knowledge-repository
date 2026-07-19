@@ -45,6 +45,24 @@ Begin with enterprise architecture principles, then move through solution archit
 - Prepare architecture reviews and decision records.
 - Identify reusable patterns and non-functional requirements.
 
+## Integration Engineering
+
+- [Integration Engineering](integration-architecture/README.md)
+- [Architecture and Design](integration-architecture/architecture.md)
+- [Implementation](integration-architecture/implementation.md)
+- [Operations](integration-architecture/operations.md)
+- [Security and Governance](integration-architecture/security-governance.md)
+- [Troubleshooting](integration-architecture/troubleshooting.md)
+- [Official References](integration-architecture/official-references.md)
+- [Centralized Learning Path](../14-learning-paths/enterprise-architecture/integration-architecture.md)
+- [Worked Example](../15-examples/enterprise-architecture/resilient-partner-integration.md)
+
+## Canonical Guides
+
+- [Integration Architecture](integration-architecture/README.md)
+- [Solution Architecture](solution-architecture/README.md)
+- [Reference Patterns](reference-patterns/README.md)
+
 ## Learning Sequence
 
 ```text

@@ -33,3 +33,14 @@ Each Active example should include:
 
 Generic generated examples awaiting review belong in `95-review-required/`, not here.
 
+## Production Engineering Examples
+
+- [Reliable and Observable Order API](devops/reliable-order-api.md)
+- [Resilient Partner Claims Integration](enterprise-architecture/resilient-partner-integration.md)
+- [Self-Service Web Service Platform](devops/self-service-web-service-platform.md)
+
+## Active Examples
+
+- [Reliable order-status service](devops/reliable-order-status-service.md)
+- [Golden path for an internal API](devops/internal-api-golden-path.md)
+- [Resilient customer-update integration](enterprise-architecture/customer-update-integration.md)

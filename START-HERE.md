@@ -19,6 +19,10 @@ Start with the [learning-path map](14-learning-paths/README.md), choose a domain
 - Use [Integration Architecture](01-enterprise-architecture/integration-architecture/README.md) for system-to-system design.
 - Use domain architecture links for data, automation, cloud, or AI-specific patterns.
 
+## I Need an Internal Platform or Golden Path
+
+Start with [Platform Engineering](08-devops/platform-engineering/README.md), then follow its [centralized learning path](14-learning-paths/devops/platform-engineering.md) from product discovery through secure operations.
+
 ## I Need an Implementation Example
 
 Browse [worked examples](15-examples/README.md). Each active example links back to its pattern, governance requirements, and troubleshooting guidance.
@@ -35,6 +39,8 @@ Browse [references](13-reference/README.md). References are intentionally concis
 
 - [DevOps reliability engineering](08-devops/reliability-engineering/README.md)
 - [Observability](08-devops/observability/README.md)
+- [Integration engineering](01-enterprise-architecture/integration-architecture/README.md)
+- [Platform engineering](08-devops/platform-engineering/README.md)
 - [Automation](05-automation/README.md)
 - [Data Engineering](03-data-engineering/README.md)
 

@@ -1,72 +1,68 @@
 ---
-title: "Integration Architecture Learning Path"
-domain: "Architecture"
-level: "Beginner to Pro"
-status: "Phase 2 Draft"
-last_updated: "2026-06-20"
+title: Integration Engineering Learning Path
+description: Centralized progression for integration architecture, contracts, implementation, operations, governance, and recovery.
+domain: Enterprise Architecture
+subdomain: Integration Architecture
+content_type: Learning Path
+level: Beginner to Pro
+status: Active
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-18
+review_cycle: Semiannual
 tags:
-  - architecture
-  - integration-architecture
+  - integration-engineering
+  - api-integration
   - learning-path
 related:
-  - ../
+  - ../../01-enterprise-architecture/integration-architecture/README.md
+  - ../../15-examples/enterprise-architecture/resilient-partner-integration.md
 ---
 
-# Integration Architecture Beginner-to-Pro Learning Path
+# Integration Engineering Learning Path
 
-## Goal
+## Stage 1 - Semantics and Boundaries
 
-Build practical mastery of **Integration Architecture** from foundational understanding through enterprise-level architecture, governance, and leadership application.
+Read [Integration Engineering](../../01-enterprise-architecture/integration-architecture/README.md) and [Architecture and Design](../../01-enterprise-architecture/integration-architecture/architecture.md).
 
-## Learning Levels
+Practice: model one business transaction as query, command, event, and batch alternatives. Identify system of record, owner, latency, consistency, security, and recovery tradeoffs.
 
-| Level | What to Learn | What to Practice | Output Artifact |
-|---|---|---|---|
-| 1. Beginner | Vocabulary, purpose, and simple examples. | Explain the topic in plain English. | One-page summary. |
-| 2. Advanced Beginner | Common flows, stakeholders, tools, and dependencies. | Map a simple real-world process. | Context diagram. |
-| 3. Intermediate Practitioner | Requirements, tradeoffs, risks, and decisions. | Compare two options. | Decision record. |
-| 4. Advanced Practitioner | Reliability, scale, governance, and operations. | Design a reusable pattern. | Reference architecture. |
-| 5. Enterprise Professional | Cross-team standards, roadmaps, and ownership. | Align multiple teams around a pattern. | Roadmap or operating model. |
-| 6. Architect / Strategic Lead | Strategy, investment, governance, and mentorship. | Lead a design review. | Enterprise standard or strategy brief. |
+Evidence: interaction decision and current/target flow.
 
-## 30-Day Plan
+## Stage 2 - Contracts and Standards
 
-- Week 1: Read the quick reference and plain-English explanation.
-- Week 2: Study core concepts and architecture flow.
-- Week 3: Create a simple diagram or checklist.
-- Week 4: Review governance, troubleshooting, and business context.
+Read [Official References](../../01-enterprise-architecture/integration-architecture/official-references.md).
 
-## 60-Day Plan
+Practice: author a small OpenAPI or AsyncAPI contract with explicit specification and API versions, examples, authentication, errors, and compatibility rules. Explain when CloudEvents adds value.
 
-- Apply Integration Architecture to a real or realistic work scenario.
-- Create a current-state and target-state view.
-- Document risks and assumptions.
-- Draft an architecture decision record.
-- Create meeting talking points.
+Evidence: validated contract and consumer compatibility matrix.
 
-## 90-Day Plan
+## Stage 3 - Safe Implementation
 
-- Build a reusable reference pattern.
-- Create governance and production readiness checklists.
-- Add examples and lessons learned.
-- Connect the topic to related repository areas.
-- Present the topic to a peer or stakeholder.
+Read [Implementation](../../01-enterprise-architecture/integration-architecture/implementation.md).
 
-## Practice Projects
+Practice: implement deadline, idempotency, bounded retry, schema validation, correlation, authorization, and terminal-failure handling. Test duplicates, late delivery, contract change, revoked identity, and downstream throttling.
 
-1. Create a current-state diagram for a real process.
-2. Create a target-state design.
-3. Write a one-page architecture decision record.
-4. Create a governance checklist.
-5. Create a quick-reference sheet.
-6. Prepare five stakeholder talking points.
+Evidence: automated tests and release checklist.
 
-## Signs of Progress
+## Stage 4 - Operations and Recovery
 
-- You can explain Integration Architecture without jargon.
-- You can connect it to business value.
-- You can identify owners, dependencies, and risks.
-- You can create simple but useful diagrams.
-- You can recommend an approach with tradeoffs.
-- You can document decisions clearly.
-- You can improve the pattern after feedback.
+Read [Operations](../../01-enterprise-architecture/integration-architecture/operations.md) and [Troubleshooting](../../01-enterprise-architecture/integration-architecture/troubleshooting.md).
+
+Practice: define business-outcome health, backlog/lag objectives, reconciliation, support ownership, replay boundary, and deprecation. Run a controlled replay in nonproduction.
+
+Evidence: dashboard definitions, replay record, reconciliation result, and runbook.
+
+## Stage 5 - Security and Governance
+
+Read [Security and Governance](../../01-enterprise-architecture/integration-architecture/security-governance.md).
+
+Practice: threat-model trust boundaries, identities, tokens, message/file content, dead-letter access, partner offboarding, and breaking-change approval.
+
+Evidence: control matrix, data classification, access design, and exception process.
+
+## Capstone
+
+Complete the [resilient partner integration worked example](../../15-examples/enterprise-architecture/resilient-partner-integration.md). Demonstrate initial acceptance, duplicate delivery, partner outage, controlled replay, and end-to-end reconciliation.
+
+You are ready to lead when you can protect business correctness across partial failure and independent change, not merely connect two endpoints.

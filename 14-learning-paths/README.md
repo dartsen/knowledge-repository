@@ -30,3 +30,14 @@ Orientation → Fundamentals → Architecture → Patterns
 
 Choose a domain path when learning a discipline. Choose a cross-domain path when preparing for a role or delivering a workload that spans multiple technologies.
 
+## Active Production Paths
+
+- [Integration Engineering](enterprise-architecture/integration-architecture.md)
+- [Reliability Engineering and Observability](devops/reliability-observability.md)
+- [Platform Engineering](devops/platform-engineering.md)
+
+## Production Engineering Paths
+
+- [Reliability and observability](devops/reliability-observability.md)
+- [Platform engineering](devops/platform-engineering.md)
+- [Integration architecture](enterprise-architecture/integration-architecture.md)
