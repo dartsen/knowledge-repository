@@ -1,0 +1,55 @@
+name: Repository quality
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install development dependency
+        run: python -m pip install --requirement requirements-dev.txt
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: Validate Active metadata and reviews
+        run: python scripts/check-frontmatter.py
+
+      - name: Validate internal links and anchors
+        run: python scripts/check-links.py
+
+      - name: Check Active navigation reachability
+        run: python scripts/find-orphaned-documents.py
+
+      - name: Check exact and normalized Active duplicates
+        run: python scripts/find-duplicate-content.py
+
+      - name: Scan for sensitive values
+        run: python scripts/check-sensitive-content.py
+
+      - name: Verify deterministic indexes
+        run: python scripts/generate-indexes.py --check
+
+      - name: Prove validation is non-writing
+        shell: pwsh
+        run: |
+          $changes = git status --porcelain --untracked-files=all
+          if ($changes) {
+            $changes
+            throw "Repository quality checks modified the checkout."
+          }

@@ -13,6 +13,7 @@ All significant repository-structure and knowledge-lifecycle changes are recorde
 - Centralized learning paths and worked examples for the new production engineering families.
 - Production Microsoft Fabric and complete Power Platform architecture, implementation, operations, governance, troubleshooting, references, learning paths, and examples.
 - Production FinOps, AI operations, and knowledge-engineering architecture, implementation, operations, governance, troubleshooting, references, learning paths, and examples.
+- Six repository quality commands, Windows-focused unit tests, deterministic Active-content indexes, and a non-writing pull-request workflow.
 
 ### Changed
 
