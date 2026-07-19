@@ -1,16 +1,22 @@
 ---
 title: UiPath Repeatable Patterns
+description: Reusable UiPath patterns for transactional automation, queues, exception handling, and governed assets.
 domain: Automation
+subdomain: UiPath
+content_type: Pattern Guide
 level: Beginner to Pro
 status: Active
-last_updated: 2026-07-03
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-03
+review_cycle: Semiannual
 tags:
   - automation
   - uipath
   - rpa
   - patterns
 related:
-  - ../
+  - ../README.md
 ---
 
 # UiPath — Repeatable Project Patterns
