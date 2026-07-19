@@ -47,6 +47,15 @@ Begin with business context, assets, data classification, identities, and risk. 
 - Assess AI or data risk.
 - Establish technology cost accountability.
 
+## Canonical Governance Guides
+
+- [FinOps](finops/README.md)
+- [Security](security/README.md)
+- [Identity and Access Management](identity-access-management/README.md)
+- [Data Governance](data-governance/README.md)
+- [AI Governance](ai-governance/README.md)
+- [Auditability](auditability/README.md)
+
 ## Learning Sequence
 
 ```text

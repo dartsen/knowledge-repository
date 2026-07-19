@@ -37,6 +37,9 @@ Choose a domain path when learning a discipline. Choose a cross-domain path when
 - [Platform Engineering](devops/platform-engineering.md)
 - [Microsoft Fabric](data-engineering/microsoft-fabric.md)
 - [Power Platform](automation/power-platform.md)
+- [FinOps](security-governance/finops.md)
+- [AI Production Engineering](artificial-intelligence/production-engineering.md)
+- [Knowledge Engineering](reference/knowledge-engineering.md)
 
 ## Production Engineering Paths
 

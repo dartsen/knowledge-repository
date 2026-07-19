@@ -12,6 +12,7 @@ All significant repository-structure and knowledge-lifecycle changes are recorde
 - Production-oriented reliability engineering, observability, integration engineering, and platform engineering guidance.
 - Centralized learning paths and worked examples for the new production engineering families.
 - Production Microsoft Fabric and complete Power Platform architecture, implementation, operations, governance, troubleshooting, references, learning paths, and examples.
+- Production FinOps, AI operations, and knowledge-engineering architecture, implementation, operations, governance, troubleshooting, references, learning paths, and examples.
 
 ### Changed
 

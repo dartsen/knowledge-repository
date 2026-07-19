@@ -48,6 +48,16 @@ Browse [references](13-reference/README.md). References are intentionally concis
 
 Start with [Security and Governance](09-security-governance/README.md), then follow links to the applicable technology domain.
 
+For technology-value visibility, allocation, forecasting, optimization, and financial accountability, use the [FinOps guide](09-security-governance/finops/README.md) and its [centralized learning path](14-learning-paths/security-governance/finops.md).
+
+## I Need to Put AI into Production
+
+Start with [AI Production Engineering](06-artificial-intelligence/production-engineering/README.md), then use the focused RAG, agent, evaluation, and responsible-AI material it links. Follow the [centralized learning path](14-learning-paths/artificial-intelligence/production-engineering.md) through architecture, evaluation, delivery, operations, and governance.
+
+## I Need to Build or Improve the Knowledge System
+
+Use [Knowledge Engineering](00-repository-guide/knowledge-engineering/README.md) for canonical content, metadata, provenance, validation, retrieval, lifecycle, and grounded-AI delivery. The [centralized learning path](14-learning-paths/reference/knowledge-engineering.md) progresses from content authority to knowledge-platform operations.
+
 ## I Need to Prepare for a Meeting or Review
 
 Use [Project Delivery](11-project-delivery/README.md) for discovery, architecture review, operational-readiness, and meeting guidance.

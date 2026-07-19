@@ -46,6 +46,14 @@ Begin with problem framing, data and risk classification, and measurable success
 - Establish production evaluation and monitoring.
 - Review an AI solution for risk, cost, and operational readiness.
 
+## Canonical Production Guides
+
+- [AI Production Engineering](production-engineering/README.md)
+- [Model Evaluation](model-evaluation/README.md)
+- [Retrieval-Augmented Generation](rag/README.md)
+- [AI Agents](ai-agents/README.md)
+- [Responsible AI](responsible-ai/README.md)
+
 ## Learning Sequence
 
 ```text

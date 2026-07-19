@@ -40,6 +40,9 @@ Generic generated examples awaiting review belong in `95-review-required/`, not 
 - [Self-Service Web Service Platform](devops/self-service-web-service-platform.md)
 - [Governed Microsoft Fabric Sales Lakehouse](data-engineering/fabric-sales-lakehouse.md)
 - [Power Platform Employee Onboarding Solution](automation/power-platform/employee-onboarding-solution.md)
+- [Technology Cost Allocation](security-governance/technology-cost-allocation.md)
+- [Grounded Support Assistant](artificial-intelligence/grounded-support-assistant.md)
+- [Canonical Knowledge Family](reference/canonical-knowledge-family.md)
 
 ## Active Examples
 
