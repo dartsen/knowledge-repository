@@ -1,44 +1,62 @@
 ---
-title: "Automation"
-domain: "Automation"
-level: "Beginner to Pro"
-status: "Phase 4 Expanded"
-last_updated: "2026-06-20"
+title: Automation
+description: Navigation for process design, Power Platform, UiPath, automation patterns, governance, and operations.
+domain: Automation
+content_type: Overview
+level: All Levels
+status: Active
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-18
+review_cycle: Semiannual
 tags:
-  - 05-automation
-  - expanded
+  - automation
+  - power-platform
+  - uipath
 related:
-  - ../
+  - ../01-enterprise-architecture/README.md
+  - ../08-devops/README.md
+  - ../09-security-governance/README.md
 ---
 
 # Automation
 
-This folder contains expanded beginner-to-pro guides for the **Automation** domain.
+## Scope
 
-## Topics
+Use this domain to analyze business processes; design, build, govern, and operate automations; and select the appropriate combination of workflow, low-code applications, RPA, APIs, data, and AI.
 
-| Topic | Purpose |
-|---|---|
-| [Intelligent Automation](./intelligent-automation/README.md) | Intelligent Automation combines workflow automation, RPA, data, APIs, AI, and business rules to reduce manual effort and improve process reliability. |
-| [Power Platform](./power-platform/README.md) | Power Platform is Microsoft’s low-code ecosystem for apps, workflows, data, copilots, and analytics, commonly used for business automation and rapid solution delivery. |
-| [Power Automate](./power-automate/README.md) | Power Automate is Microsoft’s workflow automation tool for cloud flows, desktop flows, approvals, integrations, and process automation. |
-| [UiPath](./uipath/README.md) | UiPath is an enterprise automation platform used for robotic process automation, orchestration, queues, assets, exception handling, and attended or unattended bots. |
-| [Process Design](./process-design/README.md) | Process Design is the practice of understanding, improving, and documenting business workflows before automating or digitizing them. |
-| [Exception Handling](./exception-handling/README.md) | Exception Handling defines how an automation detects, logs, routes, retries, escalates, and resolves failures or unusual business conditions. |
-| [Automation Monitoring](./automation-monitoring/README.md) | Automation Monitoring tracks automation health, success, failures, volume, savings, SLA, queue status, and operational performance. |
-| [Bot Support Models](./bot-support-models/README.md) | Bot Support Models define who owns, monitors, fixes, escalates, and improves automations after they are deployed. |
+## Recommended Starting Point
 
-## Domain-Level Use
+Start with process design and automation suitability. Choose Power Platform, UiPath, APIs, or a hybrid only after documenting boundaries, failure behavior, ownership, and support requirements.
 
-Use this domain to learn, apply, govern, troubleshoot, and improve work related to Automation.
+## Key Concepts
 
-## Beginner-to-Pro Progression
+- Process discovery, suitability, and improvement
+- Orchestration, reusable components, and business rules
+- Power Automate, Power Apps, Dataverse, Power Pages, Copilot Studio, and AI Builder
+- UiPath workflows, queues, assets, and Orchestrator
+- Idempotency, retries, exception handling, and compensation
+- Telemetry, support ownership, SLAs, and runbooks
+- Environment strategy, ALM, identity, licensing, and governance
+
+## Common Uses
+
+- Design a new automation or modernize an existing one.
+- Choose between API, cloud flow, desktop automation, and low-code application patterns.
+- Standardize reliability and error handling.
+- Establish deployment, monitoring, support, and governance controls.
+- Review an automation for production readiness.
+
+## Learning Sequence
 
 ```text
-Beginner
-  → Advanced Beginner
-  → Intermediate Practitioner
-  → Advanced Practitioner
-  → Enterprise Professional
-  → Architect / Strategic Lead
+Process design → Platform selection → Architecture → Implementation patterns
+→ Testing and ALM → Monitoring and support → Governance and improvement
 ```
+
+## Related Domains
+
+- [Enterprise Architecture](../01-enterprise-architecture/README.md)
+- [Software Engineering](../02-software-engineering/README.md)
+- [DevOps](../08-devops/README.md)
+- [Security and Governance](../09-security-governance/README.md)
