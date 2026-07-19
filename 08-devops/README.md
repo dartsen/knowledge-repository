@@ -2,6 +2,7 @@
 title: DevOps
 description: Navigation for source control, delivery automation, platform engineering, reliability, and observability.
 domain: DevOps
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active
@@ -54,7 +55,9 @@ Learn Git and pull-request practices, then delivery pipelines, artifact promotio
 - [Reliability and Observability Learning Path](../14-learning-paths/devops/reliability-observability.md)
 - [Platform Engineering Learning Path](../14-learning-paths/devops/platform-engineering.md)
 
-## Canonical Guides
+## Delivery and Operations Guides
+
+Confirm each linked guide's `status` before treating it as authoritative.
 
 - [Platform Engineering](platform-engineering/README.md)
 - [Reliability Engineering](reliability-engineering/README.md)

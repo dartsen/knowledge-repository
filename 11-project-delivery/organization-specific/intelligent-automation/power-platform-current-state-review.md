@@ -1,4 +1,27 @@
+---
+title: Power Platform Current-State Architecture Review and Modernization Blueprint
+description: Organization-specific static architecture review and provisional modernization guidance for an intelligent-automation portfolio.
+domain: Project Delivery
+subdomain: Organization-Specific Intelligent Automation
+content_type: Research Note
+level: Advanced
+status: Review Required
+scope: Organization-Specific
+owner: Repository Maintainer
+last_reviewed: 2026-07-18
+review_cycle: Event-driven
+tags:
+  - organization-specific
+  - power-platform
+  - current-state-review
+related:
+  - automation-remediation-modernization-backlog.md
+  - ../../../05-automation/power-platform/README.md
+---
+
 # Power Platform Current-State Architecture Review and Modernization Blueprint
+
+> **Scope notice - Organization-Specific / Review Required.** This public-safe record summarizes a static local-file review for a particular portfolio and is not general platform guidance. It omits credentials, personal data, tenant identifiers, private endpoints, and confidential case details. Validate findings against authorized current environment evidence before action.
 
 **Review date:** July 13, 2026  
 **Review type:** Static local-file review; no tenant connection or environment mutation  
@@ -6,7 +29,7 @@
 
 ## 1. Inventory Summary
 
-The review covered the complete local tree under `C:\Users\dionn\IA Projects`: **13 top-level folders and 82 files**. No `.zip` solution export was present, so `pac solution unpack` was not required. The Power Platform CLI (`pac`) is not installed and was not invoked. The inventory supports **12 logical workload reviews** because the `Rate Change Calculator` folder contains both the Rate Change Calculator solution and a separate legacy package named **US Data Intake Form Integration**.
+The review covered the complete local artifact bundle: **13 top-level folders and 82 files**. No `.zip` solution export was present, so `pac solution unpack` was not required. The Power Platform CLI (`pac`) was not installed and was not invoked. The inventory supports **12 logical workload reviews** because the `Rate Change Calculator` folder contains both the Rate Change Calculator solution and a separate legacy package named **US Data Intake Form Integration**.
 
 ### What was found
 

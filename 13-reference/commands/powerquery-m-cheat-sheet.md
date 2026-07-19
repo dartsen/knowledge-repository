@@ -1,9 +1,15 @@
 ---
 title: Power Query M Language Cheat Sheet
-domain: Quick Reference Sheets
+description: Quick reference for Power Query M syntax, types, transformations, functions, and common query patterns.
+domain: Analytics and BI
+subdomain: Power Query
+content_type: Cheat Sheet
 level: Beginner to Pro
 status: Active
-last_updated: 2026-07-03
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-03
+review_cycle: Semiannual
 tags:
   - quick-reference-sheets
   - commands
@@ -11,7 +17,8 @@ tags:
   - m-language
   - analytics-bi
 related:
-  - ../
+  - ../README.md
+  - ../../04-analytics-bi/README.md
 ---
 
 # Power Query (M Language) Cheat Sheet

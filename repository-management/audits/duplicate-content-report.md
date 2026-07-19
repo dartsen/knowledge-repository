@@ -2,6 +2,7 @@
 title: Duplicate Content Report
 description: Exact and near-duplicate groups identified before the repository reorganization.
 domain: Repository Management
+subdomain: Repository Audits
 content_type: Research Note
 level: All Levels
 status: Active
@@ -91,4 +92,3 @@ A duplicate candidate requires human review when:
 - One document is organization-specific and the other is general guidance.
 - Primary-source verification could change which document is authoritative.
 - Consolidation would remove decision history or project evidence.
-

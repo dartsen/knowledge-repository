@@ -2,6 +2,7 @@
 title: Enterprise Architecture
 description: Navigation for enterprise, solution, integration, and reusable architecture knowledge.
 domain: Enterprise Architecture
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active
@@ -57,7 +58,9 @@ Begin with enterprise architecture principles, then move through solution archit
 - [Centralized Learning Path](../14-learning-paths/enterprise-architecture/integration-architecture.md)
 - [Worked Example](../15-examples/enterprise-architecture/resilient-partner-integration.md)
 
-## Canonical Guides
+## Subject Guides
+
+Confirm each linked guide's `status` before treating it as authoritative.
 
 - [Integration Architecture](integration-architecture/README.md)
 - [Solution Architecture](solution-architecture/README.md)

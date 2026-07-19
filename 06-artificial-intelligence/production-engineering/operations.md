@@ -3,7 +3,7 @@ title: AI Production Operations
 description: Operations for AI quality, safety, reliability, latency, cost, feedback, incidents, and dependency changes.
 domain: Artificial Intelligence
 subdomain: Production Engineering
-content_type: Operations Guide
+content_type: Runbook
 level: Intermediate
 status: Active
 scope: General

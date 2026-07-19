@@ -17,7 +17,7 @@ tags:
 related:
   - README.md
   - architecture.md
-  - ../../../02-software-engineering/api/README.md
+  - ../../02-software-engineering/README.md
 ---
 
 # Integration Engineering Implementation

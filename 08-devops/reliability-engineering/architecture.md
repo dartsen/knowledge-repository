@@ -17,7 +17,7 @@ tags:
 related:
   - README.md
   - ../observability/architecture.md
-  - ../../01-enterprise-architecture/solution-architecture/README.md
+  - ../../01-enterprise-architecture/README.md
 ---
 
 # Reliability Architecture

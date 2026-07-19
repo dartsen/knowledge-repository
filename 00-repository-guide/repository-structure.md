@@ -1,3 +1,25 @@
+---
+title: Repository Structure
+description: Taxonomy and placement principles for durable knowledge, reusable assets, and lifecycle areas.
+domain: Repository Management
+subdomain: Repository Architecture
+content_type: Architecture Guide
+level: All Levels
+status: Active
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-18
+review_cycle: Annual
+tags:
+  - taxonomy
+  - repository-structure
+  - content-placement
+related:
+  - README.md
+  - adding-new-content.md
+  - navigation-guide.md
+---
+
 # Repository Structure
 
 The repository separates durable subject knowledge from reusable assets and lifecycle areas.

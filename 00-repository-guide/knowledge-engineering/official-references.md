@@ -3,7 +3,7 @@ title: Knowledge Engineering Official References
 description: Primary standards and authoritative guidance for metadata, vocabularies, provenance, validation, and documentation structure.
 domain: Repository Management
 subdomain: Knowledge Engineering
-content_type: Reference
+content_type: Quick Reference
 level: All Levels
 status: Active
 scope: General

@@ -2,6 +2,7 @@
 title: Data Engineering
 description: Navigation for data architecture, platforms, modeling, quality, lineage, transformation, and operations.
 domain: Data Engineering
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active
@@ -46,13 +47,17 @@ Learn data flow, grain, modeling, and quality before choosing platform-specific 
 - Compare Databricks, dbt, and Microsoft Fabric patterns.
 - Diagnose late, incomplete, duplicated, or incorrect data.
 
-## Canonical Platform Guides
+## Platform and Pattern Guides
 
 - [Microsoft Fabric](microsoft-fabric/README.md)
 - [Databricks](databricks/README.md)
+- [Databricks repeatable patterns](databricks/databricks-patterns.md)
 - [dbt](dbt/README.md)
+- [Data modeling patterns](data-modeling/modeling-patterns.md)
 - [Data Quality](data-quality/README.md)
 - [Data Lineage](data-lineage/README.md)
+
+Confirm each linked guide's `status` before treating it as authoritative.
 
 ## Learning Sequence
 

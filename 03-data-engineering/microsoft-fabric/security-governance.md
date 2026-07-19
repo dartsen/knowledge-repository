@@ -16,7 +16,7 @@ tags:
   - purview
 related:
   - README.md
-  - ../../09-security-governance/data-governance/README.md
+  - ../../09-security-governance/README.md
 ---
 
 # Microsoft Fabric Security and Governance

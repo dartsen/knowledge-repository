@@ -3,7 +3,7 @@ title: AI Production Engineering Official References
 description: Primary references for AI risk, production architecture, evaluation, observability, and security.
 domain: Artificial Intelligence
 subdomain: Production Engineering
-content_type: Reference
+content_type: Quick Reference
 level: All Levels
 status: Active
 scope: General

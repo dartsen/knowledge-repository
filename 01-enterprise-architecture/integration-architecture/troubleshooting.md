@@ -17,7 +17,7 @@ tags:
 related:
   - README.md
   - operations.md
-  - ../../../08-devops/observability/troubleshooting.md
+  - ../../08-devops/observability/troubleshooting.md
 ---
 
 # Integration Engineering Troubleshooting

@@ -3,7 +3,7 @@ title: FinOps Security and Governance
 description: Controls for financial data access, policy, automated actions, auditability, and cross-functional accountability.
 domain: Security and Governance
 subdomain: FinOps
-content_type: Security and Governance Guide
+content_type: Concept Guide
 level: Advanced
 status: Active
 scope: General

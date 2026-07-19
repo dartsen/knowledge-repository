@@ -3,7 +3,7 @@ title: AI Production Security and Governance
 description: Controls for AI data, prompts, retrieval, models, tools, monitoring, supply chain, and accountable use.
 domain: Artificial Intelligence
 subdomain: Production Engineering
-content_type: Security and Governance Guide
+content_type: Concept Guide
 level: Advanced
 status: Active
 scope: General
@@ -16,7 +16,7 @@ tags:
   - prompt-injection
 related:
   - architecture.md
-  - ../../09-security-governance/ai-governance/README.md
+  - ../../09-security-governance/README.md
 ---
 
 # AI Production Security and Governance

@@ -17,7 +17,7 @@ tags:
 related:
   - README.md
   - troubleshooting.md
-  - ../../../08-devops/observability/operations.md
+  - ../../08-devops/observability/operations.md
 ---
 
 # Integration Engineering Operations

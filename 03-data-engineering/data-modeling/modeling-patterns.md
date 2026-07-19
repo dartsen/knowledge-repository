@@ -1,16 +1,22 @@
 ---
 title: Data Modeling Patterns
+description: Reusable patterns for layered, dimensional, slowly changing dimension, and grain-aware data models.
 domain: Data Engineering
+subdomain: Data Modeling
+content_type: Pattern Guide
 level: Beginner to Pro
 status: Active
-last_updated: 2026-07-03
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-03
+review_cycle: Semiannual
 tags:
   - data-engineering
   - data-modeling
   - dimensional-modeling
   - patterns
 related:
-  - ../
+  - ../README.md
 ---
 
 # Data Modeling — Repeatable Patterns

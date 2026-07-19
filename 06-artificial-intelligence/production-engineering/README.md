@@ -16,7 +16,7 @@ tags:
   - ai-observability
 related:
   - architecture.md
-  - ../model-evaluation/README.md
+  - ../README.md
   - ../../14-learning-paths/artificial-intelligence/production-engineering.md
 ---
 

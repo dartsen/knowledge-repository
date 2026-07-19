@@ -1,3 +1,24 @@
+---
+title: Content Lifecycle
+description: Lifecycle states and review expectations for repository content from intake through archive.
+domain: Repository Management
+subdomain: Content Governance
+content_type: Concept Guide
+level: All Levels
+status: Active
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-18
+review_cycle: Annual
+tags:
+  - content-lifecycle
+  - canonical-content
+  - review
+related:
+  - metadata-standards.md
+  - navigation-guide.md
+---
+
 # Content Lifecycle
 
 ```text
@@ -34,4 +55,3 @@ Content remains searchable for historical value but is excluded from active inde
 - Semiannual: platform implementation and operations guidance.
 - Annual: stable concepts, architecture principles, and business-domain material.
 - Event-driven: decisions, audits, historical reports, and templates.
-

@@ -2,6 +2,7 @@
 title: Reference
 description: Concise commands, cheat sheets, checklists, decision trees, and troubleshooting references.
 domain: Repository Assets
+subdomain: Asset Overview
 content_type: Overview
 level: All Levels
 status: Active
@@ -25,3 +26,7 @@ Use this area for concise lookup material: commands, syntax, checklists, compari
 A reference should answer a narrow question quickly. Long explanations, architecture rationale, and end-to-end tutorials belong in their subject domain and should be linked from the reference.
 
 Every Active reference must link to its canonical subject guide and identify important platform or version assumptions.
+
+## Active Indexes
+
+- [Command and language cheat sheets](commands/cheat-sheets-index.md)

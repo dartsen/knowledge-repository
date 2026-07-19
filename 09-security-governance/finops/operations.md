@@ -3,7 +3,7 @@ title: FinOps Operations
 description: Operating cadence for cost data, forecasts, anomalies, commitments, optimization actions, and value reporting.
 domain: Security and Governance
 subdomain: FinOps
-content_type: Operations Guide
+content_type: Runbook
 level: Intermediate
 status: Active
 scope: General

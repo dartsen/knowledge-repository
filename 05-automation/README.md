@@ -2,6 +2,7 @@
 title: Automation
 description: Navigation for process design, Power Platform, UiPath, automation patterns, governance, and operations.
 domain: Automation
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active
@@ -47,13 +48,16 @@ Start with process design and automation suitability. Choose Power Platform, UiP
 - Establish deployment, monitoring, support, and governance controls.
 - Review an automation for production readiness.
 
-## Canonical Platform Guides
+## Platform and Pattern Guides
 
 - [Power Platform](power-platform/README.md)
 - [Power Automate engineering library](power-platform/power-automate/README.md)
 - [UiPath](uipath/README.md)
+- [UiPath repeatable patterns](uipath/repeatable-patterns.md)
 - [Automation Monitoring](automation-monitoring/README.md)
 - [Exception Handling](exception-handling/README.md)
+
+Confirm each linked guide's `status` before treating it as authoritative.
 
 ## Learning Sequence
 

@@ -1,3 +1,24 @@
+---
+title: Naming Standards
+description: Naming conventions for repository folders, Markdown files, titles, and tracked renames.
+domain: Repository Management
+subdomain: Content Governance
+content_type: Quick Reference
+level: Beginner
+status: Active
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-18
+review_cycle: Annual
+tags:
+  - naming
+  - content-governance
+  - repository-structure
+related:
+  - repository-structure.md
+  - adding-new-content.md
+---
+
 # Naming Standards
 
 ## Folders

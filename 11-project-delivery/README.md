@@ -2,6 +2,7 @@
 title: Project Delivery
 description: Navigation for discovery, design reviews, decisions, testing, readiness, transition, and organization-specific delivery guidance.
 domain: Project Delivery
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active
@@ -35,9 +36,13 @@ Discovery → Requirements and constraints → Architecture and decisions
 
 Documents under `organization-specific/` describe a particular environment, portfolio, or delivery context. They remain public in this repository but must use `scope: Organization-Specific`, avoid credentials and personal data, and state what evidence was and was not reviewed.
 
+Current records are explicitly noncanonical and require environment validation:
+
+- [Power Platform current-state review](organization-specific/intelligent-automation/power-platform-current-state-review.md) — Organization-Specific, Review Required
+- [Automation remediation and modernization backlog](organization-specific/intelligent-automation/automation-remediation-modernization-backlog.md) — Organization-Specific, Review Required
+
 ## Related Assets
 
 - [Templates](../12-templates/README.md)
 - [Worked examples](../15-examples/README.md)
 - [Security and Governance](../09-security-governance/README.md)
-

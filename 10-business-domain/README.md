@@ -2,6 +2,7 @@
 title: Business Domain
 description: Navigation for durable insurance, finance, operations, product, stakeholder, and value knowledge.
 domain: Business Domain
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active

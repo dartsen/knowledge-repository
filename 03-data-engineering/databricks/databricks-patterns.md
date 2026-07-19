@@ -1,9 +1,15 @@
 ---
 title: Databricks Patterns
+description: Reusable Databricks patterns for lakehouse layers, incremental ingestion, streaming, pipelines, and workload compute.
 domain: Data Engineering
+subdomain: Databricks
+content_type: Pattern Guide
 level: Beginner to Pro
 status: Active
-last_updated: 2026-07-03
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-03
+review_cycle: Semiannual
 tags:
   - data-engineering
   - databricks
@@ -11,7 +17,7 @@ tags:
   - delta-lake
   - patterns
 related:
-  - ../
+  - ../README.md
 ---
 
 # Databricks — Repeatable Patterns

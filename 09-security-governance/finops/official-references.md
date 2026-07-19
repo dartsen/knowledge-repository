@@ -3,7 +3,7 @@ title: FinOps Official References
 description: Primary references for the FinOps Framework, FOCUS, and Microsoft cost-management implementation.
 domain: Security and Governance
 subdomain: FinOps
-content_type: Reference
+content_type: Quick Reference
 level: All Levels
 status: Active
 scope: General

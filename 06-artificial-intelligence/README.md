@@ -2,6 +2,7 @@
 title: Artificial Intelligence
 description: Navigation for AI foundations, generative AI, RAG, agents, evaluation, responsible AI, and production operations.
 domain: Artificial Intelligence
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active
@@ -46,13 +47,16 @@ Begin with problem framing, data and risk classification, and measurable success
 - Establish production evaluation and monitoring.
 - Review an AI solution for risk, cost, and operational readiness.
 
-## Canonical Production Guides
+## Production and Topic Guides
 
 - [AI Production Engineering](production-engineering/README.md)
+- [Applied AI patterns](applied-ai-patterns/applied-ai-patterns.md)
 - [Model Evaluation](model-evaluation/README.md)
 - [Retrieval-Augmented Generation](rag/README.md)
 - [AI Agents](ai-agents/README.md)
 - [Responsible AI](responsible-ai/README.md)
+
+Confirm each linked guide's `status` before treating it as authoritative.
 
 ## Learning Sequence
 

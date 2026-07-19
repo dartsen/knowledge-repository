@@ -2,6 +2,7 @@
 title: Repository Audit
 description: Baseline audit of the knowledge repository before the 2026 reorganization.
 domain: Repository Management
+subdomain: Repository Audits
 content_type: Research Note
 level: All Levels
 status: Active
@@ -190,4 +191,3 @@ These files will be moved to `95-review-required/generated-scaffolding/` rather 
 5. Standardize metadata and cross-links for Active canonical content.
 6. Add validation scripts, tests, and CI.
 7. Update the movement map with actual outcomes and publish the reorganization report.
-

@@ -16,8 +16,8 @@ tags:
   - api-design
 related:
   - README.md
-  - ../../../08-devops/reliability-engineering/architecture.md
-  - ../../../08-devops/observability/architecture.md
+  - ../../08-devops/reliability-engineering/architecture.md
+  - ../../08-devops/observability/architecture.md
 ---
 
 # Integration Architecture and Design

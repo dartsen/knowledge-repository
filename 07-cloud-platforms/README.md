@@ -2,6 +2,7 @@
 title: Cloud Platforms
 description: Navigation for Azure services, cloud workload architecture, and platform selection.
 domain: Cloud Platforms
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active

@@ -2,6 +2,7 @@
 title: Templates
 description: Reusable blank assets for architecture, delivery, governance, troubleshooting, and meetings.
 domain: Repository Assets
+subdomain: Asset Overview
 content_type: Overview
 level: All Levels
 status: Active

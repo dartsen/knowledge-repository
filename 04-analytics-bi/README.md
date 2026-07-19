@@ -2,6 +2,7 @@
 title: Analytics and Business Intelligence
 description: Navigation for metrics, semantic models, Power BI, dashboards, and reporting governance.
 domain: Analytics and BI
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active

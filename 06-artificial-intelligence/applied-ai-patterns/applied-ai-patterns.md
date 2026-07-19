@@ -1,9 +1,15 @@
 ---
 title: Applied AI Patterns
-domain: AI and Machine Learning
+description: Reusable patterns for summarization, classification, extraction, drafting, retrieval, agents, and evaluation.
+domain: Artificial Intelligence
+subdomain: Applied AI Patterns
+content_type: Pattern Guide
 level: Beginner to Pro
 status: Active
-last_updated: 2026-07-03
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-03
+review_cycle: Quarterly
 tags:
   - ai-machine-learning
   - applied-ai
@@ -12,7 +18,7 @@ tags:
   - agents
   - patterns
 related:
-  - ../
+  - ../README.md
 ---
 
 # Applied AI — Repeatable Patterns

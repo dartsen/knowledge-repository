@@ -2,6 +2,7 @@
 title: Security and Governance
 description: Navigation for identity, security, compliance, platform governance, risk, auditability, and FinOps.
 domain: Security and Governance
+subdomain: Domain Overview
 content_type: Overview
 level: All Levels
 status: Active
@@ -47,7 +48,9 @@ Begin with business context, assets, data classification, identities, and risk. 
 - Assess AI or data risk.
 - Establish technology cost accountability.
 
-## Canonical Governance Guides
+## Governance Guides
+
+Confirm each linked guide's `status` before treating it as authoritative.
 
 - [FinOps](finops/README.md)
 - [Security](security/README.md)

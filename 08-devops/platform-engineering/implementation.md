@@ -17,7 +17,7 @@ tags:
 related:
   - README.md
   - architecture.md
-  - ../ci-cd/README.md
+  - ../README.md
 ---
 
 # Platform Engineering Implementation

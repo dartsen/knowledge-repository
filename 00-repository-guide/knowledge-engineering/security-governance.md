@@ -3,7 +3,7 @@ title: Knowledge Engineering Security and Governance
 description: Controls for knowledge classification, access, provenance, privacy, poisoning, rights, and lifecycle.
 domain: Repository Management
 subdomain: Knowledge Engineering
-content_type: Security and Governance Guide
+content_type: Concept Guide
 level: Advanced
 status: Active
 scope: General

@@ -2,6 +2,7 @@
 title: Worked Examples
 description: Complete examples that demonstrate architecture, implementation, operations, and governance together.
 domain: Repository Assets
+subdomain: Asset Overview
 content_type: Overview
 level: All Levels
 status: Active

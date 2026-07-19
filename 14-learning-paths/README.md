@@ -2,6 +2,7 @@
 title: Learning Paths
 description: Structured learning sequences that link to canonical knowledge without duplicating it.
 domain: Repository Assets
+subdomain: Asset Overview
 content_type: Overview
 level: Beginner to Pro
 status: Active

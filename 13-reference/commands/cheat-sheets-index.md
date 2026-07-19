@@ -1,15 +1,21 @@
 ---
 title: Cheat Sheets Index
-domain: Quick Reference Sheets
+description: Index of command and language cheat sheets with links to detailed references.
+domain: Repository Assets
+subdomain: Commands
+content_type: Quick Reference
 level: Beginner to Pro
 status: Active
-last_updated: 2026-07-03
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-03
+review_cycle: Semiannual
 tags:
   - quick-reference-sheets
   - commands
   - index
 related:
-  - ../
+  - ../README.md
 ---
 
 # Cheat Sheets Index

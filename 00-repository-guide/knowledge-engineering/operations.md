@@ -3,7 +3,7 @@ title: Knowledge Engineering Operations
 description: Operations for ownership, review, source changes, feedback, search, indexing, continuity, and retirement.
 domain: Repository Management
 subdomain: Knowledge Engineering
-content_type: Operations Guide
+content_type: Runbook
 level: Intermediate
 status: Active
 scope: General

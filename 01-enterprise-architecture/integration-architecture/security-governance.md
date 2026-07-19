@@ -16,7 +16,7 @@ tags:
   - data-protection
 related:
   - README.md
-  - ../../../09-security-governance/README.md
+  - ../../09-security-governance/README.md
 ---
 
 # Integration Security and Governance

@@ -17,6 +17,8 @@ All significant repository-structure and knowledge-lifecycle changes are recorde
 ### Changed
 
 - Reorganized the repository around distinct architecture, engineering, platform, governance, business, and delivery domains.
+- Standardized required metadata, controlled values, and explicit related-file references across Active canonical content.
+- Marked organization-specific review artifacts as public-safe, Review Required records separate from general guidance.
 
 ### Preserved
 

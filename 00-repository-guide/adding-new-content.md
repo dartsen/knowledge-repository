@@ -1,3 +1,25 @@
+---
+title: Adding New Content
+description: Decision process for placing, scoping, and governing new durable repository content.
+domain: Repository Management
+subdomain: Content Governance
+content_type: Implementation Guide
+level: Beginner
+status: Active
+scope: General
+owner: Repository Maintainer
+last_reviewed: 2026-07-18
+review_cycle: Annual
+tags:
+  - content-placement
+  - canonical-content
+  - contribution
+related:
+  - README.md
+  - metadata-standards.md
+  - content-lifecycle.md
+---
+
 # Adding New Content
 
 ## Decision Tree
@@ -32,4 +54,3 @@ flowchart TD
 7. Who can verify and maintain it?
 
 When the answer remains unclear, use `90-inbox/` and create a review note rather than guessing.
-
