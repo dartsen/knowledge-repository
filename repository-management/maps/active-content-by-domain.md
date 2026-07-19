@@ -142,6 +142,8 @@ This index is generated deterministically from Active document metadata.
 - [Navigation Guide](../../00-repository-guide/navigation-guide.md) - Navigation and canonicality rules for finding repository content without duplicating it.
 - [Repository Audit](../audits/repository-audit.md) - Baseline audit of the knowledge repository before the 2026 reorganization.
 - [Repository Guide](../../00-repository-guide/README.md) - Authoritative navigation for repository structure, metadata, lifecycle, naming, and contribution practices.
+- [Repository Maintenance Guide](../maintenance-guide.md) - Practical workflow for safe content maintenance, deterministic indexes, validation evidence, and reversible Git changes.
+- [Repository Reorganization Report](../audits/reorganization-report.md) - Final outcome, acceptance evidence, residual review work, and follow-up boundaries for the 2026 repository reorganization.
 - [Repository Structure](../../00-repository-guide/repository-structure.md) - Taxonomy and placement principles for durable knowledge, reusable assets, and lifecycle areas.
 - [Worked Example - Canonical Knowledge Family](../../15-examples/reference/canonical-knowledge-family.md) - End-to-end knowledge-engineering example that turns scattered notes into one governed, searchable family.
 

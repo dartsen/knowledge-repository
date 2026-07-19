@@ -128,6 +128,7 @@ This index is generated deterministically from Active document metadata.
 ## Tag: audit
 
 - [Repository Audit](../audits/repository-audit.md) - Baseline audit of the knowledge repository before the 2026 reorganization.
+- [Repository Reorganization Report](../audits/reorganization-report.md) - Final outcome, acceptance evidence, residual review work, and follow-up boundaries for the 2026 repository reorganization.
 
 ## Tag: automation
 
@@ -609,6 +610,10 @@ This index is generated deterministically from Active document metadata.
 
 - [Power Query M Language Cheat Sheet](../../13-reference/commands/powerquery-m-cheat-sheet.md) - Quick reference for Power Query M syntax, types, transformations, functions, and common query patterns.
 
+## Tag: maintenance
+
+- [Repository Maintenance Guide](../maintenance-guide.md) - Practical workflow for safe content maintenance, deterministic indexes, validation evidence, and reversible Git changes.
+
 ## Tag: managed-environments
 
 - [Power Platform Security and Governance](../../05-automation/power-platform/security-governance.md) - Controls for Power Platform environments, data policies, identities, Dataverse, external sites, agents, connectors, ALM, and evidence.
@@ -888,6 +893,10 @@ This index is generated deterministically from Active document metadata.
 
 - [Worked Example - Reliable and Observable Order API](../../15-examples/devops/reliable-order-api.md) - End-to-end example combining SLOs, resilience, telemetry, incident operations, security, and recovery.
 
+## Tag: reorganization
+
+- [Repository Reorganization Report](../audits/reorganization-report.md) - Final outcome, acceptance evidence, residual review work, and follow-up boundaries for the 2026 repository reorganization.
+
 ## Tag: replay
 
 - [Integration Engineering Operations](../../01-enterprise-architecture/integration-architecture/operations.md) - Operating model for integration health, dependencies, replay, reconciliation, and lifecycle.
@@ -898,6 +907,8 @@ This index is generated deterministically from Active document metadata.
 - [Duplicate Content Report](../audits/duplicate-content-report.md) - Exact and near-duplicate groups identified before the repository reorganization.
 - [Repository Audit](../audits/repository-audit.md) - Baseline audit of the knowledge repository before the 2026 reorganization.
 - [Repository Guide](../../00-repository-guide/README.md) - Authoritative navigation for repository structure, metadata, lifecycle, naming, and contribution practices.
+- [Repository Maintenance Guide](../maintenance-guide.md) - Practical workflow for safe content maintenance, deterministic indexes, validation evidence, and reversible Git changes.
+- [Repository Reorganization Report](../audits/reorganization-report.md) - Final outcome, acceptance evidence, residual review work, and follow-up boundaries for the 2026 repository reorganization.
 
 ## Tag: repository-structure
 
@@ -1072,6 +1083,10 @@ This index is generated deterministically from Active document metadata.
 ## Tag: unit-economics
 
 - [FinOps Architecture](../../09-security-governance/finops/architecture.md) - Architecture for scopes, financial data products, allocation, unit economics, forecasting, and cross-functional decisions.
+
+## Tag: validation
+
+- [Repository Maintenance Guide](../maintenance-guide.md) - Practical workflow for safe content maintenance, deterministic indexes, validation evidence, and reversible Git changes.
 
 ## Tag: w3c
 

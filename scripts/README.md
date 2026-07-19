@@ -29,3 +29,5 @@ python scripts/generate-indexes.py --check
 Use `check-frontmatter.py --show-warnings` to list preserved non-Active legacy metadata records and `check-links.py --all` for a wider advisory scan of Draft, review, and archive links. Those preserved lifecycle areas remain non-gating by default.
 
 All commands emit `path:line` diagnostics and use exit code `0` for success, `1` for content violations, and `2` for runtime or configuration failure. The pull-request workflow finishes with a complete Git status check to prove that validation did not modify the checkout or create untracked output.
+
+For the complete maintenance sequence, explicit index-write review, fresh committed-tree audit, and safe revert commands, use the [repository maintenance guide](../repository-management/maintenance-guide.md).

@@ -29,5 +29,4 @@
 
 ## Local Validation
 
-Run the commands documented in `scripts/README.md`. Validation scripts are non-writing by default; index generation writes only with an explicit `--write` option.
-
+Run the commands documented in [scripts/README.md](scripts/README.md) and follow the [repository maintenance guide](repository-management/maintenance-guide.md). Validation scripts are non-writing by default; index generation writes only with an explicit `--write` option. Review structural changes from committed Git objects and use normal Git revert commits for recovery.

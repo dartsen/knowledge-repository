@@ -61,4 +61,4 @@ Use repository search for metadata values and tags such as `content_type: Patter
 
 ## Maintenance
 
-Content changes should follow [CONTRIBUTING.md](CONTRIBUTING.md). Pull requests run link, metadata, duplicate, orphan, sensitive-content, and generated-index checks. Newly added unclassified material belongs in [90-inbox](90-inbox/README.md), not in an arbitrary domain.
+Content changes should follow [CONTRIBUTING.md](CONTRIBUTING.md) and the [repository maintenance guide](repository-management/maintenance-guide.md). Pull requests run link, metadata, duplicate, orphan, sensitive-content, and generated-index checks. Newly added unclassified material belongs in [90-inbox](90-inbox/README.md), not in an arbitrary domain. The [reorganization report](repository-management/audits/reorganization-report.md) records the 2026 baseline accounting, validation evidence, and remaining human-review work.

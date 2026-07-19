@@ -131,6 +131,7 @@ This index is generated deterministically from Active document metadata.
 - [Platform Engineering Official References](../../08-devops/platform-engineering/official-references.md) - Current primary sources supporting repository platform engineering guidance.
 - [Reliability Engineering Official References](../../08-devops/reliability-engineering/official-references.md) - Current primary sources supporting the repository reliability guidance.
 - [Repository Audit](../audits/repository-audit.md) - Baseline audit of the knowledge repository before the 2026 reorganization.
+- [Repository Reorganization Report](../audits/reorganization-report.md) - Final outcome, acceptance evidence, residual review work, and follow-up boundaries for the 2026 repository reorganization.
 
 ## Content type: Runbook
 
@@ -144,6 +145,7 @@ This index is generated deterministically from Active document metadata.
 - [Platform Engineering Operations Runbook](../../08-devops/platform-engineering/operations-runbook.md) - Operating model for platform reliability, support, lifecycle, capacity, and product feedback.
 - [Power Platform Operations Runbook](../../05-automation/power-platform/operations.md) - Operating model for Power Platform inventory, ownership, monitoring, incidents, capacity, licensing, change, and retirement.
 - [Reliability and Observability Operations Runbook](../../08-devops/reliability-engineering/operations-runbook.md) - Production operating model for objectives, alerts, incidents, recovery, and continual reliability improvement.
+- [Repository Maintenance Guide](../maintenance-guide.md) - Practical workflow for safe content maintenance, deterministic indexes, validation evidence, and reversible Git changes.
 
 ## Content type: SOP
 

@@ -17,6 +17,7 @@ tags:
 related:
   - duplicate-content-report.md
   - file-movement-map.csv
+  - reorganization-report.md
 ---
 
 # Repository Audit
@@ -159,6 +160,8 @@ scripts/
 ```
 
 The detailed proposed disposition for every baseline file is recorded in `file-movement-map.csv`.
+
+The movement map now records actual outcomes, and the completed results, validation evidence, residual warnings, and safe follow-up boundaries are documented in the [reorganization report](reorganization-report.md).
 
 ## Files Requiring Human Review
 
