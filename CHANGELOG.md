@@ -15,6 +15,7 @@ All significant repository-structure and knowledge-lifecycle changes are recorde
 - Production FinOps, AI operations, and knowledge-engineering architecture, implementation, operations, governance, troubleshooting, references, learning paths, and examples.
 - Six repository quality commands, Windows-focused unit tests, deterministic Active-content indexes, and a non-writing pull-request workflow.
 - Final reorganization report and repository maintenance runbook with committed-object review and safe Git revert commands.
+- Enterprise Power Platform VS Code workspace with safe PAC wrappers, solution/component structure, stage-specific deployment templates, governance, troubleshooting, and ALM reference material.
 
 ### Changed
 

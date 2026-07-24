@@ -1,0 +1,66 @@
+{
+  "folders": [
+    {
+      "name": "Power Platform Workspace",
+      "path": "."
+    },
+    {
+      "name": "Solutions",
+      "path": "solutions"
+    },
+    {
+      "name": "Components",
+      "path": "components"
+    },
+    {
+      "name": "Scripts",
+      "path": "scripts"
+    },
+    {
+      "name": "Documentation",
+      "path": "docs"
+    },
+    {
+      "name": "Deployment Settings",
+      "path": "deployment-settings"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "files.associations": {
+      "*.ps1": "powershell",
+      "*.psm1": "powershell",
+      "*.psd1": "powershell"
+    },
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "json.format.enable": true,
+    "yaml.format.enable": true,
+    "files.exclude": {
+      "**/bin": true,
+      "**/obj": true,
+      "**/output": true,
+      "**/temp": true,
+      "**/*.zip": true
+    },
+    "search.exclude": {
+      "**/bin": true,
+      "**/obj": true,
+      "**/output": true,
+      "**/temp": true
+    },
+    "powershell.codeFormatting.preset": "OTBS",
+    "markdown.validate.enabled": true
+  },
+  "extensions": {
+    "recommendations": [
+      "microsoft-IsvExpTools.powerplatform-vscode",
+      "ms-vscode.PowerShell",
+      "redhat.vscode-yaml",
+      "DavidAnson.vscode-markdownlint",
+      "GitHub.vscode-pull-request-github",
+      "EditorConfig.EditorConfig"
+    ]
+  }
+}

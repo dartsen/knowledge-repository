@@ -35,6 +35,7 @@ Power Platform is a low-code application, automation, data, website, and agent e
 7. [Official references](official-references.md) — current Microsoft primary documentation.
 8. [Central learning path](../../14-learning-paths/automation/power-platform.md).
 9. [Worked example](../../15-examples/automation/power-platform/employee-onboarding-solution.md).
+10. [Power Platform VS Code workspace](workspace/README.md) — reusable solution source, scripts, deployment settings, validation, and ALM reference.
 
 ## Preserved and Specialized Material
 

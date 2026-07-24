@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "microsoft-IsvExpTools.powerplatform-vscode",
+    "ms-vscode.PowerShell",
+    "redhat.vscode-yaml",
+    "DavidAnson.vscode-markdownlint",
+    "GitHub.vscode-pull-request-github",
+    "EditorConfig.EditorConfig"
+  ]
+}

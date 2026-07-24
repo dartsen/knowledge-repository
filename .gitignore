@@ -2,3 +2,38 @@ __pycache__/
 *.py[cod]
 .venv/
 .qa-deps/
+
+# Power Platform and .NET build output
+**/bin/
+**/obj/
+*.zip
+
+# Local environment and secret files
+.env
+.env.*
+*.local.json
+local.settings.json
+secrets.json
+
+# PowerShell temporary output
+*.log
+*.tmp
+temp/
+output/
+
+# Node dependencies
+node_modules/
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Local deployment settings containing live IDs
+deployment-settings/**/settings.local.json
+**/deployment-settings/**/settings.local.json
+
+# IDE-specific local files
+.vs/
+.vscode/*.local.json

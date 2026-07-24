@@ -1,0 +1,15 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "replace_EnvironmentVariableSchemaName",
+      "Value": "REPLACE_WITH_PRODUCTION_VALUE"
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "replace_ConnectionReferenceLogicalName",
+      "ConnectionId": "REPLACE_WITH_PRODUCTION_SERVICE_CONNECTION_ID",
+      "ConnectorId": "REPLACE_WITH_CONNECTOR_ID"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "repositoryRoot": "C:\\repos\\power-platform\\ia-automation",
+  "defaultSolutionProject": ".\\solutions\\ia-auto-renewal\\ia-auto-renewal.cdsproj",
+  "authProfiles": {
+    "development": "IA-DEV",
+    "test": "IA-TEST",
+    "uat": "IA-UAT",
+    "production": "IA-PROD"
+  },
+  "environmentUrls": {
+    "development": "https://replace-with-dev.crm.dynamics.com",
+    "test": "https://replace-with-test.crm.dynamics.com",
+    "uat": "https://replace-with-uat.crm.dynamics.com",
+    "production": "https://replace-with-prod.crm.dynamics.com"
+  }
+}

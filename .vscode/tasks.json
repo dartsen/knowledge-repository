@@ -1,0 +1,109 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Power Platform: Validate prerequisites",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/05-automation/power-platform/workspace/scripts/Test-PowerPlatformPrerequisites.ps1"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Power Platform: Show active context",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/05-automation/power-platform/workspace/scripts/Show-PowerPlatformContext.ps1"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Power Platform: Preview solution clone",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/05-automation/power-platform/workspace/scripts/Clone-PowerPlatformSolution.ps1",
+        "-SolutionUniqueName",
+        "${input:solutionUniqueName}",
+        "-OutputDirectory",
+        "${input:solutionOutputDirectory}",
+        "-AuthProfileName",
+        "${input:authProfileName}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Power Platform: Preview solution synchronization",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/05-automation/power-platform/workspace/scripts/Sync-PowerPlatformSolution.ps1",
+        "-SolutionProjectPath",
+        "${input:solutionProjectPath}",
+        "-AuthProfileName",
+        "${input:authProfileName}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Power Platform: Build solution locally",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/05-automation/power-platform/workspace/scripts/Build-PowerPlatformSolution.ps1",
+        "-SolutionProjectPath",
+        "${input:solutionProjectPath}",
+        "-Configuration",
+        "Release"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Power Platform: Validate workspace",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/05-automation/power-platform/workspace/scripts/Test-PowerPlatformWorkspace.ps1"
+      ],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "solutionUniqueName",
+      "type": "promptString",
+      "description": "Dataverse solution unique name"
+    },
+    {
+      "id": "solutionOutputDirectory",
+      "type": "promptString",
+      "description": "Clone output directory",
+      "default": "05-automation/power-platform/workspace/solutions/example-solution"
+    },
+    {
+      "id": "solutionProjectPath",
+      "type": "promptString",
+      "description": "Path to the solution .cdsproj"
+    },
+    {
+      "id": "authProfileName",
+      "type": "promptString",
+      "description": "Named PAC authentication profile",
+      "default": "IA-DEV"
+    }
+  ]
+}

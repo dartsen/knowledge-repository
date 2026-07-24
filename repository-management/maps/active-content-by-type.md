@@ -13,6 +13,7 @@ This index is generated deterministically from Active document metadata.
 - [Observability Architecture](../../08-devops/observability/architecture.md) - Architecture for correlated, governed, resilient, and cost-aware telemetry.
 - [Platform Engineering Architecture](../../08-devops/platform-engineering/architecture.md) - Architecture for internal platform capabilities, interfaces, control planes, tenancy, and ownership.
 - [Power Platform Architecture](../../05-automation/power-platform/architecture.md) - Architecture method for Power Platform workload, data, integration, identity, environment, ALM, reliability, and experience decisions.
+- [Power Platform Workspace Architecture](../../05-automation/power-platform/workspace/docs/architecture.md) - Local development, source-control, environment, configuration, and release architecture for solution-aware Power Platform delivery.
 - [Reliability Architecture](../../08-devops/reliability-engineering/architecture.md) - Architecture method for reliability objectives, failure boundaries, resilience, and recovery.
 - [Repository Structure](../../00-repository-guide/repository-structure.md) - Taxonomy and placement principles for durable knowledge, reusable assets, and lifecycle areas.
 
@@ -32,6 +33,7 @@ This index is generated deterministically from Active document metadata.
 
 ## Content type: Example
 
+- [Power Platform Workspace Examples](../../05-automation/power-platform/workspace/examples/README.md) - Safe placeholder configuration and educational command sequence for local Power Platform development.
 - [Worked Example - Canonical Knowledge Family](../../15-examples/reference/canonical-knowledge-family.md) - End-to-end knowledge-engineering example that turns scattered notes into one governed, searchable family.
 - [Worked Example - Golden Path for an Internal API](../../15-examples/devops/internal-api-golden-path.md) - Vendor-neutral platform example from self-service request through owned production service.
 - [Worked Example - Governed Power Platform Employee Onboarding](../../15-examples/automation/power-platform/employee-onboarding-solution.md) - Complete Power Platform example covering Dataverse, app, flow, external integration, agent boundary, ALM, security, and operations.
@@ -58,6 +60,7 @@ This index is generated deterministically from Active document metadata.
 - [Platform Engineering Implementation](../../08-devops/platform-engineering/implementation.md) - Incremental implementation guidance for internal platforms, golden paths, catalogs, and policy automation.
 - [Platform Engineering Implementation Guide](../../08-devops/platform-engineering/implementation-guide.md) - Practical sequence for product discovery, minimum viable capabilities, golden paths, and adoption.
 - [Power Platform Implementation Guide](../../05-automation/power-platform/implementation.md) - Production implementation sequence for solutions, Dataverse, apps, flows, sites, agents, code, testing, source, and deployment.
+- [Power Platform Workspace Setup](../../05-automation/power-platform/workspace/workspace-setup.md) - Step-by-step setup for VS Code, Power Platform Tools, PAC profiles, solution source, Git, build preparation, and controlled downstream imports.
 - [Reliability and Observability Implementation Guide](../../08-devops/reliability-engineering/implementation-guide.md) - Practical sequence for implementing objectives, resilience, telemetry, tests, and release controls.
 - [Reliability Implementation](../../08-devops/reliability-engineering/implementation.md) - Implementation practices for resilient code, safe delivery, and failure testing.
 
@@ -91,6 +94,8 @@ This index is generated deterministically from Active document metadata.
 - [Microsoft Power Platform](../../05-automation/power-platform/README.md) - Canonical production guidance across Power Apps, Power Automate, Dataverse, Power Pages, Copilot Studio, AI Builder, and professional extensibility.
 - [Observability](../../08-devops/observability/README.md) - Production guidance for telemetry architecture, instrumentation, detection, diagnosis, and evidence governance.
 - [Platform Engineering](../../08-devops/platform-engineering/README.md) - Production guidance for building and operating internal platforms as governed products for delivery teams.
+- [Power Platform Custom Components](../../05-automation/power-platform/workspace/components/README.md) - Navigation and ownership guidance for PCF, plug-ins, web resources, and custom connectors.
+- [Power Platform VS Code Workspace](../../05-automation/power-platform/workspace/README.md) - Reusable enterprise workspace for solution-aware Power Platform source control, validation, build preparation, and controlled deployment.
 - [Project Delivery](../../11-project-delivery/README.md) - Navigation for discovery, design reviews, decisions, testing, readiness, transition, and organization-specific delivery guidance.
 - [Prompts](../../16-prompts/README.md) - Reusable prompts organized by purpose and linked to applicable standards.
 - [Reference](../../13-reference/README.md) - Concise commands, cheat sheets, checklists, decision trees, and troubleshooting references.
@@ -116,12 +121,24 @@ This index is generated deterministically from Active document metadata.
 
 - [AI Production Engineering Official References](../../06-artificial-intelligence/production-engineering/official-references.md) - Primary references for AI risk, production architecture, evaluation, observability, and security.
 - [Cheat Sheets Index](../../13-reference/commands/cheat-sheets-index.md) - Index of command and language cheat sheets with links to detailed references.
+- [Dataverse Plug-in Source](../../05-automation/power-platform/workspace/components/plugins/README.md) - Source placement rules for Dataverse plug-ins and custom APIs.
+- [Dataverse Web Resource Source](../../05-automation/power-platform/workspace/components/web-resources/README.md) - Source placement rules for reviewed JavaScript, TypeScript, HTML, CSS, and image web resources.
 - [FinOps Official References](../../09-security-governance/finops/official-references.md) - Primary references for the FinOps Framework, FOCUS, and Microsoft cost-management implementation.
 - [Knowledge Engineering Official References](../../00-repository-guide/knowledge-engineering/official-references.md) - Primary standards and authoritative guidance for metadata, vocabularies, provenance, validation, and documentation structure.
 - [Metadata Standards](../../00-repository-guide/metadata-standards.md) - Required YAML front matter, controlled values, and cross-reference rules for canonical repository content.
 - [Microsoft Fabric Official References](../../03-data-engineering/microsoft-fabric/official-references.md) - Current Microsoft primary documentation for Fabric architecture, lifecycle, security, capacity, and troubleshooting.
 - [Naming Standards](../../00-repository-guide/naming-standards.md) - Naming conventions for repository folders, Markdown files, titles, and tracked renames.
+- [Power Apps Component Framework Source](../../05-automation/power-platform/workspace/components/pcf/README.md) - Source placement rules for owned and tested Power Apps Component Framework controls.
+- [Power Platform Custom Connector Source](../../05-automation/power-platform/workspace/components/custom-connectors/README.md) - Source placement rules for custom connector definitions, policies, tests, security, and lifecycle.
+- [Power Platform Deployment Settings](../../05-automation/power-platform/workspace/deployment-settings/README.md) - Safe use of placeholder and local deployment settings for environment variables and connection references.
 - [Power Platform Official References](../../05-automation/power-platform/official-references.md) - Current Microsoft primary documentation across Power Platform products, architecture, administration, security, and ALM.
+- [Power Platform Production Readiness Checklist](../../05-automation/power-platform/workspace/production-readiness-checklist.md) - Release gate for a supportable, secure, observable, and reproducible Power Platform workload.
+- [Power Platform Pull Request Checklist](../../05-automation/power-platform/workspace/docs/pull-request-checklist.md) - Review checklist for synchronized solution source, configuration, reliability, security, testing, deployment, and recovery.
+- [Power Platform Solution Projects](../../05-automation/power-platform/workspace/solutions/README.md) - Placement and source-control rules for local PAC-generated Dataverse solution projects.
+- [Power Platform Workspace Governance](../../05-automation/power-platform/workspace/governance.md) - Minimum engineering, identity, configuration, security, support, and change-control standards for solution delivery.
+- [Power Platform Workspace Script Reference](../../05-automation/power-platform/workspace/scripts/README.md) - Safe invocation model and command reference for Power Platform workspace PowerShell scripts.
+- [Power Platform Workspace Tests](../../05-automation/power-platform/workspace/tests/README.md) - Static validation scope and human verification guidance for the Power Platform workspace.
+- [Power Platform Workspace Validation Checklist](../../05-automation/power-platform/workspace/tests/workspace-validation-checklist.md) - Human validation checklist for local tools, safe environment selection, solution source, configuration, and downstream readiness.
 
 ## Content type: Research Note
 
@@ -150,7 +167,16 @@ This index is generated deterministically from Active document metadata.
 ## Content type: SOP
 
 - [Platform Engineering Operations](../../08-devops/platform-engineering/operations.md) - Product and service operations for internal platforms and shared delivery capabilities.
+- [Power Platform Daily Development Workflow](../../05-automation/power-platform/workspace/daily-development-workflow.md) - Controlled daily flow from Git update through maker changes, solution synchronization, review, validation, build preparation, and pull request.
 - [Reliability Operations](../../08-devops/reliability-engineering/operations.md) - Operating model for SLOs, on-call, incidents, capacity, recovery, and continuous improvement.
+
+## Content type: Template
+
+- [Power Automate Child Flow Contract Template](../../05-automation/power-platform/workspace/docs/child-flow-contract-template.md) - Template for a narrow, versioned, supportable child-flow request and response contract.
+- [Power Platform Connection Inventory Template](../../05-automation/power-platform/workspace/docs/connection-inventory-template.md) - Placeholder-only inventory for connection references, target owners, identities, DLP, rotation, and support.
+- [Power Platform Deployment Runbook Template](../../05-automation/power-platform/workspace/docs/deployment-runbook-template.md) - Template for a controlled managed-solution release through Test, UAT, and Production.
+- [Power Platform Environment Variable Inventory Template](../../05-automation/power-platform/workspace/docs/environment-variable-inventory-template.md) - Placeholder-only inventory for environment-variable purpose, stage categories, security, ownership, and validation.
+- [Power Platform Solution Design Template](../../05-automation/power-platform/workspace/docs/solution-design-template.md) - Template for documenting the design, ownership, security, operations, testing, and deployment of a Power Platform solution.
 
 ## Content type: Troubleshooting Guide
 
@@ -162,4 +188,5 @@ This index is generated deterministically from Active document metadata.
 - [Observability Troubleshooting](../../08-devops/observability/troubleshooting.md) - Troubleshooting guide for missing, misleading, delayed, or unexpectedly expensive telemetry.
 - [Platform Engineering Troubleshooting](../../08-devops/platform-engineering/troubleshooting.md) - Troubleshooting guide for internal platform workflows, catalogs, policy, providers, and adoption.
 - [Power Platform Troubleshooting Guide](../../05-automation/power-platform/troubleshooting.md) - Diagnostic paths for Power Apps, Power Automate, Dataverse, Power Pages, Copilot Studio, connections, policy, and deployment.
+- [Power Platform Workspace Troubleshooting](../../05-automation/power-platform/workspace/troubleshooting.md) - Symptom-driven troubleshooting for PAC, authentication, solution source, builds, configuration, policies, and Git synchronization.
 - [Reliability Troubleshooting](../../08-devops/reliability-engineering/troubleshooting.md) - Evidence-first investigation and recovery guide for service reliability failures.
